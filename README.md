@@ -38,7 +38,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: de Alencar, Leonel
+Contributors: de Alencar, Leonel Figueiredo
 Contributing: here
 Contact: leonel.de.alencar@ufc.br
 ===============================================================================
