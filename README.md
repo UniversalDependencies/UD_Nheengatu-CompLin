@@ -1,11 +1,15 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The UD_Nheengatu-CompLin is a treebank of Nheengatu, also known as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., grammatical descriptions, coursebooks, dictionaries, etc. 
 
 
 # Introduction
 
-...
+To our knowledge, this is the first treebank of Nheengatu. It is work in progress. The initial release just contains a couple dozen sentences. However, we plan including a few hundred new sentences in the near future. 
+
+The treebank comprises sentences from diverse published sources freely available on the Internet, e.g., grammatical descriptions, coursebooks, dictionaries, etc. The sentences were either manually converted to orthography from phonetic transcriptions or extracted from PDF text files. The annotation was performed semi-automatically, i.e., a Python script was applied to the output of a morphological analyzer and each automatic annotated sentenced was carefully revised manually.
+
+The development of this treebank along with the corresponding tools and resources is part of the reseach activities of the Research Group on Computation and Natural Language (*Computação e Linguagem Natural* -- CompLin) at the Humaminities Center of the Federal University of Ceará in Brazil.   
 
 
 # Acknowledgments
