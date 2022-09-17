@@ -1,6 +1,6 @@
 # Summary
 
-The UD_Nheengatu-CompLin is a treebank of Nheengatu, also known as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., grammatical descriptions, coursebooks, dictionaries, etc. 
+The UD_Nheengatu-CompLin is a treebank of [Nheengatu]([url](https://glottolog.org/resource/languoid/id/nhen1239)), also known as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., grammatical descriptions, coursebooks, dictionaries, etc. 
 
 
 # Introduction
