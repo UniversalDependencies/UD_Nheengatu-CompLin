@@ -16,7 +16,7 @@ https://github.com/CompLin/nheengatu
 
 # Acknowledgments
 
-...
+We are greatful to Eduardo de Almeida Navarro (University of São Paulo) for kindly allowing examples and texts of his coursebook (Navarro 2016) to be used in this project. 
 
 ## References
 
