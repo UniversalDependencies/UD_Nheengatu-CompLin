@@ -15,7 +15,7 @@
 # text = Yamburi maniaka paranã upé i membeka arama.
 # text_eng = We put the manioc in the river to become soft.
 # text_por = Pomos a mandioca no rio para amolecer.
-1	Yamburi	mburi	VERB	V	Person=1|Number=Plur|VerbForm=Fin	0	root	_	TokenRange=0:7
+1	Yamburi	mburi	VERB	V	Number=Plur|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	maniaka	maniaka	NOUN	N	Number=Sing	1	obj	_	TokenRange=8:15
 3	paranã	paranã	NOUN	N	Number=Sing	1	obl	_	TokenRange=16:22
 4	upé	upé	ADP	ADP	_	3	case	_	TokenRange=23:26
@@ -26,7 +26,7 @@
 
 # sent_id = MooreFP1994:0:3
 # text = Ayuíri-putari se retama kití.
-# text_eng = I want o return to my land.
+# text_eng = I want to return to my land.
 # text_por = Quero voltar para a minha terra.
 1-2	Ayuíri-putari	_	_	_	_	_	_	_	TokenRange=0:13
 1	Ayuíri	yuíri	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
@@ -83,7 +83,7 @@
 9	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=47:49
 10	ratiwa	tatiwa	NOUN	N	Number=Sing|Rel=Cont	11	nsubj	_	TokenRange=50:56
 11	uxari	xari	VERB	V	Person=3|VerbForm=Fin	7	acl:relcl	_	TokenRange=57:62
-12	waá	waá	REL	REL	Number=Sing|PronType=Rel	11	obj	_	TokenRange=63:66
+12	waá	waá	PRON	REL	Number=Sing|PronType=Rel	11	obj	_	TokenRange=63:66
 13	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	11	iobj	_	TokenRange=67:72
 14	arã	arã	ADP	ADP	_	13	case	_	SpaceAfter=No|TokenRange=73:76
 15	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=76:77
@@ -226,11 +226,11 @@
 # text_eng = I do everything where I'm working.
 # text_por = Faço todas as coisas onde estou trabalhando.
 1	Amunhã	munhã	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:6
-2	panhẽ	panhẽ	PRON	QUANT	PronType=Quant	3	det	_	TokenRange=7:12
+2	panhẽ	panhẽ	DET	QUANT	PronType=Tot	3	det	_	TokenRange=7:12
 3	maã	maã	NOUN	N	Number=Sing	1	obj	_	TokenRange=13:16
 4	mamé	mamé	ADV	ADVR	PronType=Int	1	advmod	_	TokenRange=17:21
 5	apurakí	purakí	VERB	V	Number=Sing|Person=1|VerbForm=Fin	4	acl:relcl	_	TokenRange=22:29
-6	waá	waá	ADV	REL	Number=Sing|PronType=Rel	5	advmod	_	TokenRange=30:33
+6	waá	waá	ADV	REL	PronType=Rel	5	advmod	_	TokenRange=30:33
 7	aikú	ikú	AUX	V	Number=Sing|Person=1|VerbForm=Fin	5	aux	_	SpaceAfter=No|TokenRange=34:38
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=38:39
 
@@ -334,7 +334,7 @@
 2	yaikú	ikú	AUX	V	Number=Plur|Person=1|VerbForm=Fin	3	cop	_	TokenRange=6:11
 3	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	0	root	_	TokenRange=12:14
 4	ruakí	ruakí	ADP	ADP	Rel=Cont	3	case	_	SpaceAfter=No|TokenRange=15:20
-5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
+5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=20:21
 
 # sent_id = Alencar2021:0:4
 # text = Suka sakú.
