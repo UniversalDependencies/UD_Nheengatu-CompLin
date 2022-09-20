@@ -442,3 +442,18 @@
 11	irumu	irumu	ADP	ADP	_	10	case	_	SpaceAfter=No|TokenRange=41:46
 12	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=46:47
 
+# sent_id = Avila2021:0:3
+# text = Ah, se membira, puxí retana indé.
+# text_source = Rodrigues, 195, adap.
+# text_eng = Ah, my son, you are very ugly.
+# text_por = Ah, meu filho, você é muito feio.
+1	Ah	ah	INTJ	INTJ	_	6	discourse	_	SpaceAfter=No|TokenRange=0:2
+2	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=2:3
+3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=4:6
+4	membira	membira	NOUN	N	Number=Sing	6	vocative	_	SpaceAfter=No|TokenRange=7:14
+5	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=14:15
+6	puxí	puxí	ADJ	A	_	0	root	_	TokenRange=16:20
+7	retana	retana	ADV	ADVS	_	6	advmod	_	TokenRange=21:27
+8	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No|TokenRange=28:32
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=32:33
+
