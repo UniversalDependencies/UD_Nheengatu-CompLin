@@ -404,3 +404,41 @@
 3	puranga	puranga	ADV	ADV	_	2	advmod	_	SpaceAfter=No|TokenRange=13:20
 4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=20:21
 
+# sent_id = Avila2021:0:1
+# text = Kuẽma irumu paá mukũi aintá suiwara tauwiyé garapá kití asuí akití taukanhemu.
+# text_orig = kuẽma irumu paá mukũi aintá suiwara ta uwiyé garapá kití asuí akití ta ukanhemu.
+# text_source = Comunidade Indígena Anamuim, 24, adap.
+# text_eng = In the morning, they say, two of them went down to the harbor and there they disappeared.
+# text_por = De manhã, dizem, dois deles desceram para o porto e para lá eles sumiram.
+1	Kuẽma	kuẽma	NOUN	N	Number=Sing	7	obl	_	TokenRange=0:5
+2	irumu	irumu	ADP	ADP	_	1	case	_	TokenRange=6:11
+3	paá	paá	PART	RPRT	Evident=Nfh	7	advmod	_	TokenRange=12:15
+4	mukũi	mukũi	NUM	NUM	NumType=Card	7	nsubj	_	TokenRange=16:21
+5	aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	nmod	_	TokenRange=22:27
+6	suiwara	suiwara	ADP	ADP	_	5	case	_	TokenRange=28:35
+7	tauwiyé	wiyé	VERB	V	Number=Plur|Person=3|VerbForm=Fin	0	root	_	TokenRange=36:43
+8	garapá	garapá	NOUN	N	Number=Sing	7	obl	_	TokenRange=44:50
+9	kití	kití	ADP	ADP	_	8	case	_	TokenRange=51:55
+10	asuí	asuí	CCONJ	CONJ	_	12	cc	_	TokenRange=56:60
+11	akití	akití	ADV	ADVD	PronType=Dem	12	advmod	_	TokenRange=61:66
+12	taukanhemu	kanhemu	VERB	V	Number=Plur|Person=3|VerbForm=Fin	7	conj	_	SpaceAfter=No|TokenRange=67:77
+13	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=77:78
+
+# sent_id = Avila2021:0:2
+# text = Indé, Jesus, yané ruixawa, rexari yaú ne irumu.
+# text_source = Missão Novas Tribos do Brasil, 2016, canto 256, adap.
+# text_eng = You, Jesus, our Lord, let us eat with you.
+# text_por = Tu, Jesus, Nosso Senhor, deixou-nos comer contigo.
+1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=4:5
+3	Jesus	jesus	PROPN	PROPN	_	8	vocative	_	SpaceAfter=No|TokenRange=6:11
+4	,	,	PUNCT	PUNCT	_	3	punct	_	TokenRange=11:12
+5	yané	yané	PRON	PRON2	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=13:17
+6	ruixawa	tuixawa	NOUN	N	Number=Sing|Rel=Cont	1	appos	_	SpaceAfter=No|TokenRange=18:25
+7	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=25:26
+8	rexari	xari	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=27:33
+9	yaú	ú	VERB	V	Number=Plur|Person=1|VerbForm=Fin	8	ccomp	_	TokenRange=34:37
+10	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	obl	_	TokenRange=38:40
+11	irumu	irumu	ADP	ADP	_	10	case	_	SpaceAfter=No|TokenRange=41:46
+12	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=46:47
+
