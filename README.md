@@ -19,7 +19,11 @@ So far, the treebank includes examples from Moore, Facundes, and Pires (1994), C
 
 We are grateful to Eduardo de Almeida Navarro (University of São Paulo) for kindly allowing us to use examples and texts from his coursebook (Navarro 2016) in this project. Besides, the glossary of this coursebook was the basis for the morphological analyzer.
 
-We also acknowledge the use of Avila (2021)'s dictionary, from which numerous treebank sentences stem. This dictionary also provided invaluable lexical, grammatical, and semantic information for the construction of the morphological analyzer and related annotation tools.
+We also acknowledge the use of Avila (2021)'s dictionary, from which numerous treebank sentences stem. This dictionary also provided invaluable lexical, grammatical, and semantic information for the construction of the morphological analyzer and related treebank annotation tools.
+
+## License
+
+Copyright of the treebank sentences and their translations belongs to their respective authors. This data is made available here solely to promote research, teaching, and learning of the Nheengatu language. Therefore, it shouldn't be used for any commercial purposes. For more information, see LICENSE.txt.
 
 ## References
 
