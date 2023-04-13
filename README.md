@@ -5,7 +5,7 @@ The UD_Nheengatu-CompLin is a treebank of [Nheengatu](https://glottolog.org/reso
 
 # Introduction
 
-To our knowledge, this is the first treebank of Nheengatu. It is a work in progress. The initial release only contained a couple hundred sentences. This new release encompasses three times this number. We plan to continually expand the resource on a regular basis in the near future.
+To our knowledge, this is the first treebank of Nheengatu. It is a work in progress. The initial release only contained a couple hundred sentences. This new release encompasses more than three times this number. We plan to continually expand the resource on a regular basis in the near future.
 
 The treebank comprises sentences from diverse published sources freely available on the Internet, e.g., grammatical descriptions, fables, coursebooks, and dictionaries. The sentences were either extracted from PDF text files, transcribed from print sources or manually converted to orthography from phonetic transcriptions. Throughout the treebank, we use the spelling system of Navarro (2016), which only contains minor differences from Avila (2021)'s. The annotation was performed semi-automatically, i.e., we applied a Python program to the output of a morphological analyzer, manually revising each automatically annotated sentence.
 
@@ -13,7 +13,7 @@ The development of this treebank and related tools and resources is part of the 
 
 https://github.com/CompLin/nheengatu
 
-So far, the treebank includes examples from Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Navarro (2016), Alencar (2021) and Avila (2021) as weel as from the New Testament (Novo Testamento na língua Nyengatu, 1973/2019).
+So far, the treebank includes examples from Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Navarro (2016), Alencar (2021), and Avila (2021) as well as from the New Testament (Novo Testamento na língua Nyengatu, 1973/2019).
 
 # Acknowledgments
 
@@ -48,7 +48,7 @@ Copyright of the treebank sentences and their translations belongs to their resp
 Data available since: UD v2.11
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: spoken grammar-examples
+Genre: spoken bible fiction nonfiction grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: manual native
