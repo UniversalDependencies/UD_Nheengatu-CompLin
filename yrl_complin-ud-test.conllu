@@ -122,7 +122,7 @@
 2	apitá	pitá	VERB	V	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=3:8
 3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=8:9
 4	ayuíri	yuíri	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	TokenRange=10:16
-5	kwá	kwá	ADV	ADV	PronType=Dem	4	obl	_	TokenRange=17:20
+5	kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	4	obl	_	TokenRange=17:20
 6	kití	kití	ADP	ADP	_	5	case	_	SpaceAfter=No|TokenRange=21:25
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=25:26
 
@@ -164,7 +164,7 @@
 1	Indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	TokenRange=0:4
 2	remurari	murari	VERB	V	Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=5:13
 3	apekatú	apekatú	ADV	ADV	_	2	advmod	_	TokenRange=14:21
-4	kwá	kwá	ADV	ADV	PronType=Dem	3	obl	_	TokenRange=22:25
+4	kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	3	obl	_	TokenRange=22:25
 5	suí	suí	ADP	ADP	_	4	case	_	TokenRange=26:29
 6	tetama	tetama	NOUN	N	Number=Sing|Rel=Abs	4	obl	_	TokenRange=30:36
 7	suí	suí	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=37:40
@@ -10522,6 +10522,58 @@
 8	yara	yara	NOUN	N	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=25:29
 9	?	?	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=29:30
 
+# sent_id = Avila2021:0:0:482
+# text = Se rurí katú asú apinaitika indé arã.
+# text_eng = Well happy I'll go fishing for you.
+# text_por = Bem feliz eu vou pescar para você.
+# text_source = excerpt from the song "apigá marupiara", by the Marupiara group
+# text_annotator = LFdeA
+1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:2
+2	rurí	rurí	VERB	A2	Rel=Cont	0	root	_	TokenRange=3:7
+3	katú	katú	ADV	ADVS	AdvType=Deg	2	advmod	_	TokenRange=8:12
+4	asú	sú	AUX	AUXFR	Number=Sing|Person=1|VerbForm=Fin	5	aux	_	TokenRange=13:16
+5	apinaitika	pinaitika	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	TokenRange=17:27
+6	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	5	obl	_	TokenRange=28:32
+7	arã	arã	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=33:36
+8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=36:37
+
+# sent_id = Avila2021:0:0:483
+# text = Se rurí aikú.
+# text_eng = I'm happy.
+# text_por = Estou alegre.
+# text_source = Costa, 187, adap.; Hartt, 367, adap.
+# text_annotator = LFdeA
+1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:2
+2	rurí	rurí	VERB	A2	Rel=Cont	0	root	_	TokenRange=3:7
+3	aikú	ikú	AUX	AUXFS	Number=Sing|Person=1|VerbForm=Fin	2	aux	_	SpaceAfter=No|TokenRange=8:12
+4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=12:13
+
+# sent_id = Avila2021:0:0:484
+# text =  Ixé se rurí.
+# text_eng = I'm happy.
+# text_por = Eu estou alegre.
+# text_source = Studart, 37, adap.
+# text_annotator = LFdeA
+1	Ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	TokenRange=0:3
+2	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	expl	_	TokenRange=4:6
+3	rurí	rurí	VERB	A2	Rel=Cont	0	root	_	SpaceAfter=No|TokenRange=7:11
+4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=11:12
+
+# sent_id = Avila2021:0:0:485
+# text =  Asuí paá surí upitá i mena irumu.
+# text_eng = After that, they say, she was happy with her husband.
+# text_por = Depois disso, contam, ela ficou feliz com seu marido.
+# text_source = Rodrigues, 46, adap.
+# text_annotator = LFdeA
+1	Asuí	asuí	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:4
+2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	3	advmod	_	TokenRange=5:8
+3	surí	rurí	VERB	A2	Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	0	root	_	TokenRange=9:13
+4	upitá	pitá	VERB	V	Person=3|VerbForm=Fin	3	parataxis	_	TokenRange=14:19
+5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=20:21
+6	mena	mena	NOUN	N	Number=Sing	4	obl	_	TokenRange=22:26
+7	irumu	irumu	ADP	ADP	_	6	case	_	SpaceAfter=No|TokenRange=27:32
+8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=32:33
+
 # sent_id = NTLN:0:0:1
 # text = Te pesikari kirimbawa pembaú arama peú arama yuíri, te peyuka pe piá aintá resé.
 # text_eng = And do not seek what you are to eat and what you are to drink, nor be worried. [ESV]
@@ -11688,6 +11740,63 @@
 22	waá-itá	waá	PRON	REL	Number=Plur|PronType=Rel	17	obj	_	SpaceAfter=No|TokenRange=116:123
 23	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=123:124
 
+# sent_id = NTLN:0:0:43
+# text = Surí kurí indé nhaãsé ti maã aintá upuderi aintá upagari indé sikuyara.
+# text_eng = and happy thou shalt be, because they have not to recompense thee [YLT]
+# text_por = Feliz será você, porque estes não têm como retribuir. [NVI]
+# text_source = Novo Testamento na língua Nyengatu, Lk 14:14
+# text_orig = Suuri kuri inde nyãse timaa aintaupuderi aintaupagari inde sikuyara.
+# text_annotator = LFdeA
+1	Surí	rurí	VERB	A2	Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	0	root	_	TokenRange=0:4
+2	kurí	kurí	PART	FUT	Tense=Fut	1	advmod	_	TokenRange=5:9
+3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	TokenRange=10:14
+4	nhaãsé	nhaãsé	SCONJ	SCONJR	_	10	mark	_	TokenRange=15:21
+5	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	10	advmod	_	TokenRange=22:24
+6	maã	maã	PRON	IND	PronType=Ind	5	fixed	_	TokenRange=25:28
+7	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	TokenRange=29:34
+8	upuderi	puderi	AUX	AUXFR	Person=3|VerbForm=Fin	10	aux	_	TokenRange=35:42
+9	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	10	expl	_	TokenRange=43:48
+10	upagari	pagari	VERB	V	Person=3|VerbForm=Fin	1	advcl	_	TokenRange=49:56
+11	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	10	iobj	_	TokenRange=57:61
+12	sikuyara	sikuyara	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	10	obj	_	SpaceAfter=No|TokenRange=62:70
+13	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=70:71
+
+# sent_id = NTLN:0:0:44
+# text = Kuíri surí ixé nhaãsé apuderi ambeú se resewara resendú arama indé tuixawa Agripa, ambeú se resewara suaxara kwá aintá umbeú waá puxí se resé kwá-itá judeu-itá.
+# text_eng = “I consider myself fortunate that it is before you, King Agrippa, I am going to make my defense today against all the accusations of the Jews, [ESV]
+# text_por = Tenho-me por feliz, ó rei Agripa, pelo privilégio de, hoje, na tua presença, poder produzir a minha defesa de todas as acusações feitas contra mim pelos judeus; [ARA]
+# text_source = Novo Testamento na língua Nyengatu, Acts 26:2
+# text_orig = Kuiri suuri ixe nyãse hapuderi hambeu seresewara resendu arama inde tuixawa Agripa, hambeu seresewara suaxara kua aintaumbeuwaa puxi serese kuaita judewita.
+# text_annotator = LFdeA
+1	Kuíri	kuíri	ADV	ADVT	AdvType=Tim	2	advmod	_	TokenRange=0:5
+2	surí	rurí	VERB	A2	Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	0	root	_	TokenRange=6:10
+3	ixé	ixé	PRON	PRON	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=11:14
+4	nhaãsé	nhaãsé	SCONJ	SCONJR	_	6	mark	_	TokenRange=15:21
+5	apuderi	puderi	AUX	AUXFR	Number=Sing|Person=1|VerbForm=Fin	6	aux	_	TokenRange=22:29
+6	ambeú	mbeú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	2	advcl	_	TokenRange=30:35
+7	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	TokenRange=36:38
+8	resewara	resewara	ADP	ADP	Rel=Cont	7	case	_	TokenRange=39:47
+9	resendú	sendú	VERB	V	Number=Sing|Person=2|VerbForm=Fin	6	advcl	_	TokenRange=48:55
+10	arama	arama	SCONJ	SCONJ	_	9	mark	_	TokenRange=56:61
+11	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	TokenRange=62:66
+12	tuixawa	tuixawa	NOUN	N	Number=Sing|Rel=Abs	9	vocative	_	TokenRange=67:74
+13	Agripa	agripa	PROPN	PROPN	_	12	flat	_	SpaceAfter=No|TokenRange=75:81
+14	,	,	PUNCT	PUNCT	_	15	punct	_	TokenRange=81:82
+15	ambeú	mbeú	VERB	V	Number=Sing|Person=1|VerbForm=Fin	9	parataxis	_	TokenRange=83:88
+16	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	obl	_	TokenRange=89:91
+17	resewara	resewara	ADP	ADP	Rel=Cont	16	case	_	TokenRange=92:100
+18	suaxara	ruaxara	ADP	ADP	Number[grnd]=Sing|Person[grnd]=3|Rel=NCont	15	obl	_	TokenRange=101:108
+19	kwá	kwá	PRON	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	15	dislocated	_	TokenRange=109:112
+20	aintá	aintá	PRON	PRON	Number=Plur|Person=3|PronType=Prs	21	nsubj	_	TokenRange=113:118
+21	umbeú	mbeú	VERB	V	Person=3|VerbForm=Fin	19	acl:relcl	_	TokenRange=119:124
+22	waá	waá	PRON	REL	Number=Sing|PronType=Rel	21	obj	_	TokenRange=125:128
+23	puxí	puxí	ADV	ADVA	AdvType=Man	21	advmod	_	TokenRange=129:133
+24	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	21	obl	_	TokenRange=134:136
+25	resé	resé	ADP	ADP	Rel=Cont	24	case	_	TokenRange=137:141
+26	kwá-itá	kwá	DET	DEMX	Deixis=Prox|Number=Plur|PronType=Dem	27	det	_	TokenRange=142:149
+27	judeu-itá	judeu-itá	NOUN	N	Number=Plur	21	dislocated	_	Orig=judeu|OrigLang=pt|SpaceAfter=No|TokenRange=150:159
+28	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=159:160
+
 # sent_id = Cruz2011:0:0:1
 # text = Aé umendari yepé werekena irũ.
 # text_eng = Ele casou com uma uerequena.
@@ -12054,6 +12163,10 @@
 # text_eng = Now I'm going to tell you about them, these two men who worked with balata.
 # text_por = Agora vou contar sobre eles, estes dois homens que trabalhavam com balata.
 # text_source = Jonas Bruno Aleixo, p. 3
+# title = Mukuĩ apigawa-itá
+# titel_orig = Mukuĩ Apigawaitá
+# title_eng = Two men
+# title_pt = Dois homens
 # text_orig = Kuiri asú ãbeú taresé, kuaitá mukuĩ, apigawaitá, upuraké waitá balata.
 # text_annotator = Leonel Figueiredo de Alencar (LFdeA)
 1	Kuíri	kuíri	ADV	ADV	_	3	advmod	_	TokenRange=0:5
