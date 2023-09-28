@@ -13,13 +13,48 @@ The development of this treebank and related tools and resources is part of the 
 
 https://github.com/CompLin/nheengatu
 
-So far, the treebank includes examples from Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Navarro (2016), Alencar (2021), and Avila (2021) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019).
+So far, the treebank includes examples from Magalhães (1876), Rogrigues (1890), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Stradelli (2014), Navarro (2016), Alencar (2021), and Avila (2021) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019).
+
+# How to cite
+If use any of the tools and resources of this repository, please cite the following paper:
+
+## ACM reference format:
+
+Leonel de Alencar. 2023. Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In *Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana*, setembro 25, 2023, Belo Horizonte/MG, Brasil. SBC, Porto Alegre, Brasil, 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
+
+## APA reference format:
+
+de Alencar, L. (2023). Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana, (pp. 135-145). Porto Alegre: SBC. doi:10.5753/stil.2023.234131
+
+## ABNT reference format:
+
+DE ALENCAR, Leonel Figueiredo. Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 14. , 2023, Belo Horizonte/MG. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2023 . p. 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
+
+## BibTex reference format:
+
+```
+@inproceedings{stil,
+ author = {Leonel de Alencar},
+ title = {Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework},
+ booktitle = {Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
+ location = {Belo Horizonte/MG},
+ year = {2023},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {135--145},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/stil.2023.234131},
+ url = {https://sol.sbc.org.br/index.php/stil/article/view/25445}
+}
+
+```
 
 # Acknowledgments
 
 We are grateful to Eduardo de Almeida Navarro (University of São Paulo) for kindly allowing us to use examples and texts from his coursebook (Navarro 2016) in this project. Besides, the glossary of this coursebook was the first basis for the morphological analyzer.
 
-We also acknowledge the use of Avila (2021)'s dictionary, from which numerous treebank sentences stem. This dictionary also provided invaluable lexical, grammatical, and semantic information for the further development of the morphological analyzer and related treebank annotation tools. We are much obliged to its author, Marcel Twardowsky Avila, for making the XML version of the dictionary available to us and clarifying questions about some entries.     
+We also acknowledge the use of Avila (2021)'s dictionary, from which numerous treebank sentences stem. This dictionary also provided invaluable lexical, grammatical, and semantic information for the further development of the morphological analyzer and related treebank annotation tools. We are much obliged to its author, Marcel Twardowsky Avila, for making the XML version of the dictionary available to us and clarifying questions about some entries.
 
 ## License
 
