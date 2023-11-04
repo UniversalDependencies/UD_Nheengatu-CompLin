@@ -5,137 +5,142 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>946</sentences><tokens>9409</tokens><words>9498</words><fused>89</fused></total>
+    <total><sentences>1239</sentences><tokens>12621</tokens><words>12743</words><fused>122</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>946</sentences><tokens>9409</tokens><words>9498</words><fused>89</fused></test>
+    <test><sentences>1239</sentences><tokens>12621</tokens><words>12743</words><fused>122</fused></test>
   </size>
-  <lemmas unique="1051" /><!-- ., ,, aintá, waá, i, kwá, se, arama, maã, aé, sú, ti, ?, paá, ikú -->
-  <forms unique="1412" /><!-- ., ,, aintá, i, waá, se, arama, kwá, aé, ti, ?, paá, asuí, kurí, indé -->
-  <fusions unique="68" /><!-- maita, asú-putari, kupixá-pe, uyuká-putari, Ukiririntu, asú-kwáu, ipí-pe, iwí-pe, kaá-pe, rumasá-pe, rupitá-pe, usú-putari, Amaã-putari, Amaãntu, Amunhã-kari -->
+  <lemmas unique="1217" /><!-- ., ,, aintá, waá, i, kwá, arama, se, maã, sú, aé, ti, ?, ikú, paá -->
+  <forms unique="1663" /><!-- ., ,, aintá, i, waá, arama, se, aé, kwá, ti, ?, paá, kurí, ana, uikú -->
+  <fusions unique="86" /><!-- maita, asú-putari, asú-kwáu, iwí-pe, kupixá-pe, uyuká-putari, Ukiririntu, ambaú-putari, ipí-pe, kaá-pe, paraname, resú-putari, ripí-pe, rumasá-pe, rupitá-pe -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">198</tag><!-- puranga, mirĩ, pisasú, turusú, kirimbawa, puxí, yakwáu, aíwa, kunhamukú, kwera -->
-    <tag name="ADP">646</tag><!-- upé, kití, suí, irumu, resé, rupí, supé, arama, xupé, yawé -->
-    <tag name="ADV">647</tag><!-- asuí, mayé, ape, kuíri, yawé, iké, yuíri, mamé, katú, piri -->
-    <tag name="AUX">233</tag><!-- ikú, sú, putari, kwáu, puderi, kari, yuíri -->
-    <tag name="CCONJ">70</tag><!-- asuí, ma, u, yuíri, nẽ, tiramé -->
-    <tag name="DET">309</tag><!-- kwá, nhaã, yepé, panhẽ, amú, muíri, aé, siiya, setá, siía -->
-    <tag name="INTJ">20</tag><!-- ah, hum, taité, tenupá, tiũ, oh, pem, puxa, pô, tik -->
-    <tag name="NOUN">1550</tag><!-- uka, mira, ara, apigawa, kunhã, igara, manha, pirá, mirá, nheenga -->
-    <tag name="NUM">27</tag><!-- mukũi, musapiri, yepé, nove -->
-    <tag name="PART">714</tag><!-- ti, paá, kurí, taá, ana, aikwé, tẽ, será, pu, ã -->
-    <tag name="PRON">1390</tag><!-- aintá, waá, i, se, aé, indé, ixé, ne, ta, maã -->
-    <tag name="PROPN">154</tag><!-- maria, pedro, jesus, deus, yuruparí, gabriel, poronominare, são, iauhixa, antônio -->
-    <tag name="PUNCT">1781</tag><!-- ., ,, ?, !, :, ―, ", [...], —, … -->
-    <tag name="SCONJ">243</tag><!-- arama, ramé, arã, mairamé, mayé, maãresé, nhaãsé, resé, riré, até -->
-    <tag name="VERB">1516</tag><!-- maã, sú, munhã, sika, mbeú, nheẽ, yuri, rikú, putari, pitá -->
+    <tag name="ADJ">268</tag><!-- puranga, turusú, mirĩ, pisasú, piranga, katú, kirimbawa, kwera, puxí, aíwa -->
+    <tag name="ADP">879</tag><!-- upé, kití, irumu, suí, rupí, resé, supé, arama, xupé, yawé -->
+    <tag name="ADV">823</tag><!-- asuí, mayé, ape, kuíri, yawé, iké, yuíri, aramé, mamé, rẽ -->
+    <tag name="AUX">315</tag><!-- ikú, sú, putari, kwáu, puderi, kari, yuíri -->
+    <tag name="CCONJ">87</tag><!-- asuí, ma, yuíri, u, nẽ, tiramé -->
+    <tag name="DET">411</tag><!-- kwá, nhaã, yepé, panhẽ, amú, muíri, siiya, maã, siía, aé -->
+    <tag name="INTJ">46</tag><!-- ah, tẽ, taité, tenupá, traka, txáu, araã, hum, pô, tiũ -->
+    <tag name="NOUN">2129</tag><!-- ara, uka, mira, apigawa, kunhã, igara, manha, pituna, pirá, mirá -->
+    <tag name="NUM">36</tag><!-- mukũi, musapiri, yepé, nove, pú-mukũi -->
+    <tag name="PART">961</tag><!-- ti, paá, kurí, ana, taá, tẽ, aikwé, será, ã, pawa -->
+    <tag name="PRON">1786</tag><!-- aintá, waá, i, se, aé, ixé, indé, ne, maã, yané -->
+    <tag name="PROPN">190</tag><!-- maria, pedro, yuruparí, jesus, deus, são, gabriel, poronominare, buopé, iauhixa -->
+    <tag name="PUNCT">2464</tag><!-- ., ,, ?, :, —, !, ―, [...], ", ; -->
+    <tag name="SCONJ">320</tag><!-- arama, ramé, mairamé, arã, maãresé, mayé, riré, kurumú, nhaãsé, resé -->
+    <tag name="VERB">2028</tag><!-- sú, maã, nheẽ, munhã, sika, mbeú, rikú, yuri, pisika, putari -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="65">
-    <feat name="AdvType" value="Cau" upos="ADV">26</feat><!-- nhaãsé, marama, ape, aresé, marã, Ma, aramé -->
-    <feat name="AdvType" value="Deg" upos="ADV">33</feat><!-- piri, reté, katú, retana, xinga -->
-    <feat name="AdvType" value="Loc" upos="ADV">103</feat><!-- iké, mamé, makití, marupí, masuí, ape, kwá, Mimi, akití, apekatú -->
-    <feat name="AdvType" value="Man" upos="ADV">128</feat><!-- mayé, yawé, maita, puranga, kirimbawa, kutara, puxí, sé, tiapú, merupí -->
-    <feat name="AdvType" value="Mod" upos="ADV">5</feat><!-- kuité -->
-    <feat name="AdvType" value="Tim" upos="ADV">107</feat><!-- asuí, aramé, kuíri, ariré, aiwana, kuité, mairamé, Aiwã, rẽ, wirandé -->
-    <feat name="Aspect" value="Freq" upos="ADV,AUX,NOUN,PART,VERB">14</feat><!-- Amanduariwara, Asuwara, Ikewara, aikwewara, arawara, kwayewara, pesenduwera, rukawara, sewara, uikuwera -->
-    <feat name="Aspect" value="Frus" upos="PART">6</feat><!-- yepé -->
-    <feat name="Aspect" value="Hab" upos="SCONJ,VERB">5</feat><!-- ambautiwa, rametiwa, ukanhemutiwa, usutiwa, uyukatiwa -->
+  <feats unique="70">
+    <feat name="AdvType" value="Cau" upos="ADV">37</feat><!-- nhaãsé, ape, aresé, marama, aramé, kurumú, marã -->
+    <feat name="AdvType" value="Con" upos="ADV">8</feat><!-- Ma, nuká -->
+    <feat name="AdvType" value="Deg" upos="ADV">71</feat><!-- katú, piri, reté, retana, xinga, puru, mirĩ, retã, ité -->
+    <feat name="AdvType" value="Loc" upos="ADV">158</feat><!-- iké, mamé, ape, makití, apekatú, marupí, masuí, kwá, akití, Mimi -->
+    <feat name="AdvType" value="Man" upos="ADV">177</feat><!-- mayé, yawé, kwayé, puranga, kutara, kirimbawa, puxí, maita, satambika, sé -->
+    <feat name="AdvType" value="Mod" upos="ADV">6</feat><!-- kuité, kuté -->
+    <feat name="AdvType" value="Tim" upos="ADV">254</feat><!-- asuí, kuíri, rẽ, aramé, wirandé, ariré, kuxiíma, aiwana, kuité, yeperesé -->
+    <feat name="Aspect" value="Compl" upos="PART">27</feat><!-- pawa, pá -->
+    <feat name="Aspect" value="Freq" upos="ADV,AUX,NOUN,PART,VERB">15</feat><!-- Amanduariwara, Asuiwara, Asuwara, Ikewara, aikwewara, arawara, kwayewara, pesenduwera, rukawara, sewara -->
+    <feat name="Aspect" value="Frus" upos="PART">7</feat><!-- yepé -->
+    <feat name="Aspect" value="Hab" upos="SCONJ,VERB">6</feat><!-- ambautiwa, rametiwa, ukanhemutiwa, upurungitatiwa, usutiwa, uyukatiwa -->
     <feat name="Aspect" value="Iter" upos="AUX">2</feat><!-- ayuíri, yayuíri -->
-    <feat name="Aspect" value="Perf" upos="PART">98</feat><!-- ana, ã, wana, wã -->
-    <feat name="Case" value="Gen" upos="PRON">507</feat><!-- i, se, ne, aintá, yané, pe, ta, tá -->
-    <feat name="Clitic" value="Yes" upos="ADP,ADV,PART">40</feat><!-- pe, ntu, taá, me -->
-    <feat name="Compound" value="Yes" upos="AUX">48</feat><!-- putari, kwáu, kari -->
-    <feat name="Definite" value="Ind" upos="DET,PRON">63</feat><!-- yepé -->
-    <feat name="Degree" value="Aug" upos="NOUN">15</feat><!-- mirawasú, miráwasú, amanawasú, awawasú, buyawasú, irusangawasú, itapewawasú, kavernawasú, mirá-itawasú, riputiwasú -->
-    <feat name="Degree" value="Cmp" upos="ADV">10</feat><!-- piri -->
-    <feat name="Degree" value="Sup" upos="ADV">5</feat><!-- piri -->
-    <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">175</feat><!-- kwá, iké, kwá-itá, kwaá, ape -->
-    <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">92</feat><!-- nhaã, ape, aé, nhaã-itá, Mimi, akití, aape -->
+    <feat name="Aspect" value="Perf" upos="PART">155</feat><!-- ana, ã, wã, wana -->
+    <feat name="Case" value="Gen" upos="PRON">670</feat><!-- i, se, ne, aintá, yané, pe, ta, tá -->
+    <feat name="Clitic" value="Yes" upos="ADP,ADV,PART">57</feat><!-- pe, taá, ntu, me, ta -->
+    <feat name="Compound" value="Yes" upos="AUX">64</feat><!-- putari, kwáu, kari -->
+    <feat name="Definite" value="Ind" upos="DET,PRON">84</feat><!-- yepé -->
+    <feat name="Degree" value="Aug" upos="NOUN">25</feat><!-- buyawasú, mirawasú, miráwasú, amanawasú, awawasú, irusangawasú, itapewawasú, kavernawasú, marikawasú, mirá-itawasú -->
+    <feat name="Degree" value="Cmp" upos="ADV">11</feat><!-- piri -->
+    <feat name="Degree" value="Dim" upos="ADJ,NOUN">2</feat><!-- makakaí, purangamirĩ -->
+    <feat name="Degree" value="Sup" upos="ADV">7</feat><!-- piri -->
+    <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">212</feat><!-- kwá, iké, kwá-itá, kwaá, kí -->
+    <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">133</feat><!-- nhaã, ape, akití, aé, nhaã-itá, Mimi, aape -->
     <feat name="Derivation" value="Coll" upos="NOUN">4</feat><!-- itatiwa, kapĩtiwa, mirawasutiwa, sakaitiwa -->
-    <feat name="Derivation" value="Priv" upos="ADJ">7</feat><!-- Adana-ima, ara-ima, kiinha-ima, santaíma, sawa-ima, tĩ-ima, ximirikú-ima -->
-    <feat name="Evident" value="Nfh" upos="PART">113</feat><!-- paá -->
-    <feat name="Foc" value="Yes" upos="PART">32</feat><!-- tẽ, té, tenhẽ -->
+    <feat name="Derivation" value="Priv" upos="ADJ,VERB">8</feat><!-- Adana-ima, ara-ima, kiaíma, kiinha-ima, santaíma, sawa-ima, tĩ-ima, ximirikú-ima -->
+    <feat name="Evident" value="Nfh" upos="PART">136</feat><!-- paá -->
+    <feat name="Foc" value="Yes" upos="PART">47</feat><!-- tẽ, tenhẽ, katú, té -->
     <feat name="Mood" value="Cnd" upos="PART">13</feat><!-- maã -->
-    <feat name="Mood" value="Imp" upos="PART,VERB">17</feat><!-- te, yuri -->
-    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,VERB">775</feat><!-- aintá, ta, yané, waá-itá, yandé, kwá-itá, pe, penhẽ, yasú, apigawa-itá -->
-    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,VERB">2852</feat><!-- i, waá, se, kwá, aé, indé, ixé, nhaã, ne, ara -->
-    <feat name="Number[grnd]" value="Sing" upos="ADP">17</feat><!-- sesé, suakí, sakakwera, sesewara, suaxara -->
-    <feat name="Number[psor]" value="Sing" upos="NOUN">86</feat><!-- sera, suka, sawa, sesá, sumuara, suíwa, ximirikú, sakakwera, sesewara, ximiara -->
-    <feat name="NumType" value="Card" upos="NUM">27</feat><!-- mukũi, musapiri, yepé, nove -->
+    <feat name="Mood" value="Imp" upos="AUX,PART,VERB">24</feat><!-- te, yuri, tenhẽ, Pekũi -->
+    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,VERB">995</feat><!-- aintá, yané, ta, waá-itá, yandé, penhẽ, pe, kwá-itá, yasú, mira-itá -->
+    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,VERB">3811</feat><!-- i, waá, se, aé, kwá, ixé, indé, nhaã, ne, ara -->
+    <feat name="Number[grnd]" value="Sing" upos="ADP">21</feat><!-- sesé, suakí, sakakwera, sesewara, suaxara -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">123</feat><!-- sera, suka, ximirikú, sawa, sesá, sukwera, sumuara, suíwa, sakakwera, sesewara -->
+    <feat name="NumType" value="Card" upos="NUM">36</feat><!-- mukũi, musapiri, yepé, nove, pú-mukũi -->
     <feat name="NumType" value="Ord" upos="ADV">6</feat><!-- mukũisawa, primeru -->
-    <feat name="PartType" value="Emp" upos="PART">32</feat><!-- tẽ, té, tenhẽ -->
-    <feat name="PartType" value="Exs" upos="PART">25</feat><!-- aikwé, aikwewara -->
-    <feat name="PartType" value="Int" upos="PART">85</feat><!-- taá, será -->
-    <feat name="PartType" value="Mod" upos="PART">158</feat><!-- paá, pu, maã, eré, supí, tenki, presizu, ba -->
-    <feat name="PartType" value="Neg" upos="PART">152</feat><!-- ti, te, nti, umbaá, nẽ -->
-    <feat name="PartType" value="Prs" upos="PART">12</feat><!-- xukúi -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">653</feat><!-- se, ixé, yané, asú, yandé, aikú, yasú, ambeú, aputari, yamunhã -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">396</feat><!-- indé, ne, pe, penhẽ, reputari, resú, remaã, reyuri, remunhã, rerikú -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">1593</feat><!-- aintá, i, aé, uikú, usú, ta, usika, umaã, unheẽ, umunhã -->
-    <feat name="Person[grnd]" value="3" upos="ADP">17</feat><!-- sesé, suakí, sakakwera, sesewara, suaxara -->
-    <feat name="Person[psor]" value="3" upos="NOUN">86</feat><!-- sera, suka, sawa, sesá, sumuara, suíwa, ximirikú, sakakwera, sesewara, ximiara -->
-    <feat name="Polarity" value="Neg" upos="PART">159</feat><!-- ti, te, nti, umbaá, nẽ -->
-    <feat name="Polarity" value="Pos" upos="PART">10</feat><!-- eré -->
-    <feat name="Poss" value="Yes" upos="PRON">312</feat><!-- se, i, ne, yané, aintá, ta, pe -->
-    <feat name="PronType" value="Art" upos="DET,PRON">63</feat><!-- yepé -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">281</feat><!-- kwá, nhaã, iké, kwá-itá, ape, akití, aé, nhaã-itá, Mimi, aape -->
+    <feat name="PartType" value="Emp" upos="PART">47</feat><!-- tẽ, tenhẽ, katú, té -->
+    <feat name="PartType" value="Exs" upos="PART">32</feat><!-- aikwé, aikwewara -->
+    <feat name="PartType" value="Int" upos="PART">114</feat><!-- taá, será, ta -->
+    <feat name="PartType" value="Mod" upos="PART">188</feat><!-- paá, pu, maã, eré, supí, tenki, tenupá, presizu, ba, ipú -->
+    <feat name="PartType" value="Neg" upos="PART">201</feat><!-- ti, te, nti, intí, umbaá, nẽ, tenhẽ -->
+    <feat name="PartType" value="Prs" upos="PART">14</feat><!-- xukúi, Kusukúi -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">855</feat><!-- se, ixé, yané, asú, yandé, aikú, yasú, yamunhã, amunhã, akwáu -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">526</feat><!-- indé, ne, penhẽ, pe, reputari, resú, remaã, remunhã, rerikú, reyuri -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">2119</feat><!-- aintá, i, aé, uikú, usú, unheẽ, ta, usika, umaã, umunhã -->
+    <feat name="Person[grnd]" value="3" upos="ADP">21</feat><!-- sesé, suakí, sakakwera, sesewara, suaxara -->
+    <feat name="Person[psor]" value="3" upos="NOUN">123</feat><!-- sera, suka, ximirikú, sawa, sesá, sukwera, sumuara, suíwa, sakakwera, sesewara -->
+    <feat name="Polarity" value="Neg" upos="PART">208</feat><!-- ti, te, nti, intí, umbaá, nẽ, tenhẽ -->
+    <feat name="Polarity" value="Pos" upos="PART">12</feat><!-- eré -->
+    <feat name="Poss" value="Yes" upos="PRON">423</feat><!-- se, i, ne, yané, aintá, pe, ta -->
+    <feat name="PronType" value="Art" upos="DET,PRON">84</feat><!-- yepé -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">347</feat><!-- kwá, nhaã, iké, kwá-itá, ape, akití, aé, kwaá, nhaã-itá, Mimi -->
     <feat name="PronType" value="Emp" upos="DET,PRON">22</feat><!-- aité -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">97</feat><!-- amú, maã, amú-itá, awá, siiya, manungara, setá, siía, mairamé, muíri -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">143</feat><!-- mayé, maã, awá, mamé, makití, maita, marupí, marama, masuí, muíri -->
-    <feat name="PronType" value="Prs" upos="PRON">1013</feat><!-- aintá, i, se, aé, indé, ixé, ne, ta, yané, yandé -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">205</feat><!-- waá, waá-itá, mamé, makití, awá, mayé, maã, marupí, masuí, mairamé -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">42</feat><!-- panhẽ, pawa, muíri -->
-    <feat name="PunctType" value="Elip" upos="PUNCT">21</feat><!-- [...] -->
-    <feat name="Red" value="Yes" upos="VERB">1</feat><!-- ukaúkaú -->
-    <feat name="Rel" value="Abs" upos="NOUN">65</feat><!-- tatá, uka, tetama, timbiú, tuixawa, peé, tendawa, pé, sangawa, supiara -->
-    <feat name="Rel" value="Cont" upos="ADP,NOUN,SCONJ,VERB">254</feat><!-- resé, resewara, ruka, ruakí, rurí, raíra, ramunha, retama, rera, resá -->
-    <feat name="Rel" value="NCont" upos="ADP,NOUN,VERB">138</feat><!-- sera, surí, sesé, suka, sawa, suakí, sakú, sesá, sumuara, sakakwera -->
-    <feat name="Style" value="Arch" upos="VERB">2</feat><!-- renúi, ripiaka -->
-    <feat name="Tense" value="Fut" upos="PART">98</feat><!-- kurí, arama, arã, ku, rã -->
-    <feat name="Tense" value="Past" upos="AUX,PART,VERB">11</feat><!-- kwera, pesenduwera, uikuwera, upukawera, upuruwera, uyumuatiriwera -->
-    <feat name="Tense" value="Pres" upos="ADV,NOUN,PART,VERB">9</feat><!-- Amanduariwara, Asuwara, Ikewara, aikwewara, arawara, kwayewara, rukawara, sewara, yawewara -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1630</feat><!-- uikú, usú, usika, umaã, asú, unheẽ, umunhã, umbeú, upitá, upisika -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">51</feat><!-- putari, kwáu, rasú, mukaẽ, mundú, renúi, ripiaka, sendú, suruka -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">154</feat><!-- amú, maã, awá, amú-itá, siiya, muíri, siía, setá, siya, manungara -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">167</feat><!-- mayé, maã, awá, mamé, makití, marupí, muíri, maita, marama, masuí -->
+    <feat name="PronType" value="Prs" upos="PRON">1311</feat><!-- aintá, i, se, aé, ixé, indé, ne, yané, ta, yandé -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">269</feat><!-- waá, waá-itá, mamé, awá, maã, makití, masuí, mayé, marupí, mairamé -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">58</feat><!-- panhẽ, muíri, upaĩ -->
+    <feat name="PunctType" value="Elip" upos="PUNCT">28</feat><!-- [...] -->
+    <feat name="Red" value="Yes" upos="VERB">3</feat><!-- Akaá-kaá, Tasuú-suú, ukaúkaú -->
+    <feat name="Rel" value="Abs" upos="NOUN">91</feat><!-- uka, tatá, tetama, timbiú, tuixawa, tendawa, peé, pé, teapú, tuwí -->
+    <feat name="Rel" value="Cont" upos="ADP,NOUN,SCONJ,VERB">327</feat><!-- resé, ruka, resewara, ruakí, rurí, ramunha, rapé, raíra, riiya, retama -->
+    <feat name="Rel" value="NCont" upos="ADP,NOUN,VERB">187</feat><!-- sera, sesé, suka, surí, ximirikú, sawa, suakí, sakú, sasí, sesá -->
+    <feat name="Style" value="Arch" upos="NOUN,PRON,VERB">7</feat><!-- aé, penhẽ, renúi, ripiaka, uka, ukena, yandé -->
+    <feat name="Style" value="Rare" upos="NOUN">1</feat><!-- Yukasara -->
+    <feat name="Tense" value="Fut" upos="PART">128</feat><!-- kurí, arama, arã, ku, rã -->
+    <feat name="Tense" value="Past" upos="AUX,PART,VERB">14</feat><!-- kwera, pesenduwera, uikuwera, upukawera, upuruwera, uyumuatiriwera -->
+    <feat name="Tense" value="Pres" upos="ADV,NOUN,PART,VERB">10</feat><!-- Amanduariwara, Asuiwara, Asuwara, Ikewara, aikwewara, arawara, kwayewara, rukawara, sewara, yawewara -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2190</feat><!-- uikú, usú, unheẽ, usika, asú, umaã, umunhã, urikú, umbeú, aikú -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">69</feat><!-- putari, kwáu, rasú, mukaẽ, mundú, renúi, ripiaka, sendú, suruka, wari -->
+    <feat name="Voice" value="Pass" upos="VERB">3</feat><!-- Uyupurungitá, uyumunhã, uyumusangawa -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="36">
     <dep name="acl">11</dep>
-    <dep name="acl:relcl">162</dep>
-    <dep name="advcl">216</dep>
-    <dep name="advcl:relcl">14</dep>
-    <dep name="advmod">1245</dep>
-    <dep name="amod">62</dep>
-    <dep name="appos">18</dep>
-    <dep name="aux">174</dep>
-    <dep name="case">621</dep>
-    <dep name="cc">69</dep>
-    <dep name="ccomp">137</dep>
-    <dep name="compound">3</dep>
-    <dep name="conj">99</dep>
-    <dep name="cop">57</dep>
-    <dep name="csubj">13</dep>
+    <dep name="acl:relcl">216</dep>
+    <dep name="advcl">296</dep>
+    <dep name="advcl:relcl">20</dep>
+    <dep name="advmod">1625</dep>
+    <dep name="amod">89</dep>
+    <dep name="appos">20</dep>
+    <dep name="aux">231</dep>
+    <dep name="case">849</dep>
+    <dep name="cc">85</dep>
+    <dep name="ccomp">203</dep>
+    <dep name="compound">4</dep>
+    <dep name="conj">137</dep>
+    <dep name="cop">81</dep>
+    <dep name="csubj">14</dep>
     <dep name="dep">1</dep>
-    <dep name="det">318</dep>
-    <dep name="discourse">14</dep>
-    <dep name="dislocated">35</dep>
-    <dep name="expl">67</dep>
-    <dep name="fixed">23</dep>
-    <dep name="flat">7</dep>
-    <dep name="iobj">64</dep>
-    <dep name="mark">244</dep>
-    <dep name="nmod">22</dep>
-    <dep name="nmod:poss">486</dep>
-    <dep name="nsubj">1038</dep>
-    <dep name="nummod">24</dep>
-    <dep name="obj">589</dep>
-    <dep name="obl">538</dep>
-    <dep name="parataxis">276</dep>
-    <dep name="punct">1780</dep>
+    <dep name="det">415</dep>
+    <dep name="discourse">32</dep>
+    <dep name="dislocated">43</dep>
+    <dep name="expl">77</dep>
+    <dep name="fixed">34</dep>
+    <dep name="flat">11</dep>
+    <dep name="iobj">85</dep>
+    <dep name="mark">322</dep>
+    <dep name="nmod">33</dep>
+    <dep name="nmod:poss">673</dep>
+    <dep name="nsubj">1375</dep>
+    <dep name="nummod">33</dep>
+    <dep name="obj">760</dep>
+    <dep name="obl">712</dep>
+    <dep name="parataxis">392</dep>
+    <dep name="punct">2463</dep>
     <dep name="reparandum">1</dep>
-    <dep name="root">946</dep>
-    <dep name="vocative">53</dep>
-    <dep name="xcomp">71</dep>
+    <dep name="root">1239</dep>
+    <dep name="vocative">74</dep>
+    <dep name="xcomp">87</dep>
   </deps>
 </treebank>
