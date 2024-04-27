@@ -34,15 +34,13 @@ DE ALENCAR, Leonel Figueiredo. Yauti: A Tool for Morphosyntactic Analysis of Nhe
 
 ## BibTex reference format:
 
-```
-@inproceedings{stil,
- author = {Leonel de Alencar},
+```bibtex
+@inproceedings{alencar_2023,
+ author = {Leonel Figueiredo de Alencar},
  title = {Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework},
  booktitle = {Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
  location = {Belo Horizonte/MG},
  year = {2023},
- keywords = {},
- issn = {0000-0000},
  pages = {135--145},
  publisher = {SBC},
  address = {Porto Alegre, RS, Brasil},
