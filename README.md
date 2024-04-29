@@ -1,6 +1,6 @@
 # Summary
 
-The [UD_Nheengatu-CompLin](https://doi.org/10.5753/stil.2023.234131) is a treebank of [Nheengatu](https://glottolog.org/resource/languoid/id/nhen1239) (ISO-639: `yrl`), also known, inter alia, as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., grammatical descriptions, fables, myths, coursebooks, and dictionaries.
+The [UD_Nheengatu-CompLin](https://doi.org/10.5753/stil.2023.234131) is a treebank of [Nheengatu](https://glottolog.org/resource/languoid/id/nhen1239) (ISO-639: `yrl`), also known, inter alia, as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., spontaneous speech, grammatical descriptions, fables, myths, coursebooks, and dictionaries.
 
 
 # Introduction
