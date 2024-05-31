@@ -1,6 +1,6 @@
 # Summary
 
-The [UD_Nheengatu-CompLin](https://doi.org/10.5753/stil.2023.234131) is a treebank of [Nheengatu](https://glottolog.org/resource/languoid/id/nhen1239) (ISO-639: `yrl`), also known, inter alia, as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., spontaneous speech, grammatical descriptions, fables, myths, coursebooks, and dictionaries.
+The [UD_Nheengatu-CompLin](https://doi.org/10.5753/stil.2023.234131) is a treebank of [Nheengatu](https://glottolog.org/resource/languoid/id/nhen1239) or Nhengatu (ISO-639: `yrl`), also known, inter alia, as Modern Tupi and *Língua Geral Amazônica*. It comprises sentences from diverse published sources, e.g., spontaneous speech, grammatical descriptions, fables, myths, coursebooks, and dictionaries.
 
 
 # Introduction
@@ -18,24 +18,54 @@ https://github.com/CompLin/nheengatu
 So far, the treebank includes examples from Seixas (1853), Magalhães (1876), Sympson (1877), Rogrigues (1890), Aguiar (1898), Costa (1909), Amorim (1928), Hartt (1938), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Stradelli (1929/2014), Navarro (2016), Muller et al. (2019), Alencar (2021), Avila (2021), and Melgueiro (2022) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019).
 
 # How to cite
-If use any of the tools and resources of this repository, please cite the following paper:
+If use any of the tools and resources of this repository, please cite the following papers accordingly:
 
 ## ACM reference format:
 
-Leonel de Alencar. 2023. Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In *Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana*, setembro 25, 2023, Belo Horizonte/MG, Brasil. SBC, Porto Alegre, Brasil, 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
+Leonel Figueiredo de Alencar. 2024. [A Universal Dependencies Treebank for Nheengatu](https://aclanthology.org/2024.propor-2.8). In Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 2, pages 37–54, Santiago de Compostela, Galicia/Spain. Association for Computational Lingustics.
+
+Leonel Figueiredo de Alencar. 2023. [Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework](https://doi.org/10.5753/stil.2023.234131). In *Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana*, setembro 25, 2023, Belo Horizonte/MG, Brasil. SBC, Porto Alegre, Brasil, 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
 
 ## APA reference format:
+de Alencar, L. F. (2024). A Universal Dependencies Treebank for Nheengatu. In P. Gamallo, D. Claro, A. J. S. Teixeira, L. Real, M. García, H. G. Oliveira, & R. Amaro (Eds.), Proceedings of the 16th International Conference on Computational Processing of Portuguese, PROPOR 2024, Santiago de Compostela, Galicia/Spain, 12-15 March, 2024 (Vol. 2, pp. 37-54). Association for Computational Linguistics. https://aclanthology.org/2024.propor-2.8
 
-de Alencar, L. (2023). Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana, (pp. 135-145). Porto Alegre: SBC. doi:10.5753/stil.2023.234131
+de Alencar, L. F. (2023). Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana, (pp. 135-145). Porto Alegre: SBC. doi:10.5753/stil.2023.234131
 
 ## ABNT reference format:
 
-DE ALENCAR, Leonel Figueiredo. Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 14. , 2023, Belo Horizonte/MG. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2023 . p. 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
+DE ALENCAR, Leonel Figueiredo. A Universal Dependencies Treebank for Nheengatu. In: GAMALLO, Pablo; CLARO, Daniela; TEIXEIRA, António J. S.; REAL, Livy; GARCÍA, Marcos; OLIVEIRA, Hugo Gonçalo; AMARO, Raquel (Eds.). *Proceedings of the 16th International Conference on Computational Processing of Portuguese, PROPOR 2024, Santiago de Compostela, Galicia/Spain, 12-15 March, 2024.* Stroudsburg, PA, USA: Association for Computational Linguistics, 2024. v. 2, p. 37-54. Available at: https://aclanthology.org/2024.propor-2.8.
+
+DE ALENCAR, Leonel Figueiredo. Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 14., 2023, Belo Horizonte/MG. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2023. p. 135-145. DOI: https://doi.org/10.5753/stil.2023.234131.
 
 ## BibTex reference format:
 
 ```bibtex
-@inproceedings{alencar_2023,
+@inproceedings{DeAlencar2024,
+  author = "de Alencar, Leonel Figueiredo",
+  editor  = {Pablo Gamallo and
+            Daniela Claro and
+            Ant{\'{o}}nio J. S. Teixeira and
+            Livy Real and
+            Marcos Garc{\'{\i}}a and
+            Hugo Gon{\c{c}}alo Oliveira and
+            Raquel Amaro},
+  title = "A {U}niversal {D}ependencies Treebank for {N}heengatu",
+  booktitle = {Proceedings of the 16th International Conference on Computational Processing of Portuguese, {PROPOR} 2024, Santiago de Compostela, Galicia/Spain, 12-15 March, 2024},
+  pages = "37--54",
+  volume = {2},
+  publisher = {Association for Computational Linguistics},
+  year = {2024},
+  month = {3},
+  url = "https://aclanthology.org/2024.propor-2.8",
+  address = {Stroudsburg, PA, USA},
+  abstract="We present UD_Nheengatu-CompLin, the inaugural treebank for Nheengatu, an endangered Indigenous language of Brazil with limited digital resources. This treebank stands as the largest among Indigenous American languages in version 2.13 of the Universal Dependencies collection. The developmental version comprises 1,336 trees, encompassing 13,246 tokens and 13,374 words. In a 10-fold cross-validation experiment using UDPipe 1.2, parsing with gold tokenization and gold tags achieved a labeled attachment score (LAS) of 81.17 ± 1.02, outperforming Yauti, the rule-based analyzer employed for sentence annotation.",
+  isbn = {979-8-89176-062-2,
+  doi = "10.5281/zenodo.11372209"}
+}
+```
+
+```bibtex
+@inproceedings{DeAlencar2023,
  author = {Leonel Figueiredo de Alencar},
  title = {Yauti: A Tool for Morphosyntactic Analysis of Nheengatu within the Universal Dependencies Framework},
  booktitle = {Anais do XIV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
