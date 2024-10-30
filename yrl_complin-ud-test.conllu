@@ -283,7 +283,7 @@
 1	Yaú	ú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:3
 2	timbiú	timbiú	NOUN	N	Number=Sing|Rel=Abs	1	obj	_	TokenRange=4:10
 3	sakú	sakú	ADJ	A	_	2	amod	_	TokenRange=11:15
-4	ti	ti	PART	NEG	_	7	advmod	_	TokenRange=16:18
+4	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	7	advmod	_	TokenRange=16:18
 5	arama	arama	SCONJ	SCONJ	_	7	mark	_	TokenRange=19:24
 6	kurupira-itá	kurupira	NOUN	N	Number=Plur	7	nsubj	_	TokenRange=25:37
 7	urasú	rasú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	advcl	_	TokenRange=38:43
@@ -27288,14 +27288,16 @@
 24	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|TokenRange=108:109
 
 # sent_id = Casasnovas2006:7:1:1
-# text = Yepé ara paá taína-itá taunheẽ ta ramunha tamakwarí tuyué supé: — Abú, puxiwera paá marandua yandé.
+# text = Yepé ara paá taína-itá taunheẽ ta ramunha tamakwarí tuyué supé: — Abú, puxiwera paá marandúa yandé.
 # text_eng = One day, they say, children said to their grandfather, old Tamaquari: "Grandpa, we have bad news.
 # text_por = Um dia, contam, crianças disseram para o seu avô, o velho Tamaquari: — Vovô, temos uma má notícia. [Adapt. transl.]
 # text_source = p. 83, No. 1-2
 # title = Tamakwarí Ukwasá
 # title_por = A sabedoria do Tamaquari
 # text_orig = Yepé ara paá, tainaitá taunheé taramunha tamakwarí tuyué supé: Abú, puxwera paá marandúa yandé.
-# text_annotator = Leonel Figueiredo de Alencar (LFdeA)
+# text_orig_transcriber = Juliana Lopes Gurgel
+# text_annotator = Leonel Figueiredo de Alencar
+# reviewer1 = Juliana Lopes Gurgel
 1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
 2	ara	ara	NOUN	N	Number=Sing	5	obl	_	TokenRange=5:8
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=9:12
@@ -27312,7 +27314,7 @@
 14	,	,	PUNCT	PUNCT	_	13	punct	_	TokenRange=68:69
 15	puxiwera	puxiwera	ADJ	A	_	17	amod	_	TokenRange=70:78
 16	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	17	advmod	_	TokenRange=79:82
-17	marandua	marandua	NOUN	N	Number=Sing	5	ccomp	_	TokenRange=83:91
+17	marandúa	marandúa	NOUN	N	Number=Sing	5	ccomp	_	TokenRange=83:91
 18	yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	17	dislocated	_	SpaceAfter=No|TokenRange=92:97
 19	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=97:98
 
@@ -27323,7 +27325,9 @@
 # text_source = p. 83, No. 2
 # text_adapt = Avila (2021)
 # text_orig = Kwa iwí, paá, yepé ara ukaí arã yané irumu!
+# text_orig_transcriber = Juliana Lopes Gurgel
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	Kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:3
 2	iwí	iwí	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=4:7
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	TokenRange=8:11
@@ -27342,6 +27346,7 @@
 # text_source = p. 83, No. 3
 # text_orig = Tikl [sic], unheé, paá, usuaxara aintá.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
 2	Tik	tik	INTJ	INTJ	_	5	ccomp	_	SpaceAfter=No|TokenRange=1:4
 3	!	!	PUNCT	PUNCT	_	2	punct	_	TokenRange=4:5
@@ -27357,6 +27362,9 @@
 # text_eng = "If it burns I'll go into a hole in the earth."
 # text_por = — Se queimar entrarei dentro de um buraco da terra. [Adapt. transl.]
 # text_source = p. 83, No. 3
+# text_orig = Ukaí ramé kurí, awiké kurí isuí iwí kwara kití!
+# text_orig_transcriber = Juliana Lopes Gurgel
+# reviewer1 = Juliana Lopes Gurgel
 # text_annotator = LFdeA
 1	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=-1:0
 2	Ukái	kái	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	advcl	_	TokenRange=1:5
@@ -27367,7 +27375,7 @@
 7	kurí	kurí	PART	FUT	Tense=Fut	6	advmod	_	TokenRange=23:27
 8	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	obl	_	TokenRange=28:29
 9	suí	suí	ADP	ADP	AdpType=Post	8	case	_	TokenRange=30:33
-10	iwí	iwí	NOUN	N	Number=Sing	6	nmod:poss	_	TokenRange=34:37
+10	iwí	iwí	NOUN	N	Number=Sing	11	nmod:poss	_	TokenRange=34:37
 11	kwara	kwara	NOUN	N	Number=Sing	6	obl	_	TokenRange=38:43
 12	kití	kití	ADP	ADP	AdpType=Post	11	case	_	SpaceAfter=No|TokenRange=44:48
 13	!	!	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=48:49
@@ -27379,6 +27387,7 @@
 # text_source = p. 83, No. 4
 # text_orig = Umbaá, abú, taunheé paá.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
 2	Umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	6	ccomp	_	SpaceAfter=No|TokenRange=1:6
 3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=6:7
@@ -27394,6 +27403,8 @@
 # text_por = — Dizem que toda a terra queimará! [Adapt. transl.]
 # text_source = p. 83, No. 4
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# review_status = ongoing
 1	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=-1:0
 2	Panhẽ	panhẽ	DET	TOT	PronType=Tot	4	det	_	TokenRange=1:6
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=7:10
@@ -27409,6 +27420,7 @@
 # text_source = p. 83, No. 5
 # text_orig = Yawé ramé kurí, apuri kurí isuí paraná kití!
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=-1:0
 2	Yawé	yawé	ADV	ADVA	AdvType=Man	6	advcl	_	TokenRange=1:5
 3	ramé	ramé	SCONJ	SCONJ	_	2	mark	_	TokenRange=6:10
@@ -27430,6 +27442,8 @@
 # text_orig = Tenhuntu indé abú, taunheé paá ixupé.
 # text_sec = Tenhuntu indé, abú! [Avila 2021]
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# review_status = ongoing
 1	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
 2	Tenhuntu	tenhuntu	ADV	ADVA	AdvType=Man	7	ccomp	_	TokenRange=1:9
 3	indé	indé	PRON	PRON	Number=Sing|Person=2|PronType=Prs	2	dislocated	_	SpaceAfter=No|TokenRange=10:14
@@ -27449,6 +27463,8 @@
 # text_source = p. 83, No. 6
 # text_orig = Panhé paá kwa ií upupuri arã.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# review_status = ongoing
 1	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=-1:0
 2	Panhẽ	panhẽ	DET	TOT	PronType=Tot	5	det	_	TokenRange=1:6
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	TokenRange=7:10
@@ -27465,6 +27481,7 @@
 # text_source = p. 83, No. 7
 # text_orig = Yawé paá, tamakwarí tuyué upitá sasiara, asuí ipiaiwa xinga.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	Yawé	yawé	ADV	ADVA	AdvType=Man	5	advmod	_	TokenRange=0:4
 2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	5	advmod	_	TokenRange=5:8
 3	tamakwarí	tamakwarí	PROPN	PROPN	_	4	nmod:poss	_	TokenRange=9:18
@@ -27487,6 +27504,9 @@
 # text_annotator = LFdeA
 # text_por_orig = mas para não se dar por vencido, disse: Se as águas fervem, então mergulharei no fundo do buraco de uma pedra.
 # text_sec = ― Ií upupuri ramé kurí, ayapumi kurí tipí, awiké arã i suí itakwara kití! [Avila 2021]
+# text_orig_transcriber = Juliana Lopes Gurgel
+# text_por_modernizer = Juliana Lopes Gurgel
+# reviewer1 = Juliana Lopes Gurgel
 1	Ma	ma	ADV	ADVP	AdvType=Con	4	advmod	_	TokenRange=0:2
 2	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	4	advmod	_	TokenRange=3:5
 3	arã	arã	SCONJ	SCONJ	_	4	mark	_	TokenRange=6:9
@@ -27523,6 +27543,7 @@
 # text_source = p. 83, No. 10
 # text_orig = Umbaá, abú, taunheé paá ixupé.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	―	―	PUNCT	PUNCT	_	2	punct	_	TokenRange=-1:0
 2	Umbaá	umbaá	PART	NEG	PartType=Neg|Polarity=Neg	6	ccomp	_	SpaceAfter=No|TokenRange=1:6
 3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=6:7
@@ -27541,6 +27562,8 @@
 # text_source = p. 83, No. 10
 # text_orig = Panhé paá kwaitá itá tautikú arã.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# review_status = ongoing
 1	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=-1:0
 2	Panhẽ	panhẽ	DET	TOT	PronType=Tot	5	det	_	TokenRange=1:6
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	6	advmod	_	TokenRange=7:10
@@ -27557,6 +27580,7 @@
 # text_source = p. 83, No. 11
 # text_orig = Mayé taá kurí remunha, taunheé paá ixupé.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=-1:0
 2	Mayé	mayé	ADV	ADVRA	AdvType=Man|PronType=Int	5	advmod	_	TokenRange=1:5
 3	taá	taá	PART	CQ	PartType=Int	5	advmod	_	TokenRange=6:9
@@ -27580,6 +27604,7 @@
 # text_por_sec = O velho Tamaquari não sabia mais como responder, então ficou triste.
 # text_por_sec_source = Avila (2021)
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	Tamakwarí	tamakwarí	PROPN	PROPN	_	2	nmod:poss	_	TokenRange=0:9
 2	tuyué	tuyué	NOUN	N	Number=Sing	6	nsubj	_	TokenRange=10:15
 3	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	6	advmod	_	TokenRange=16:18
@@ -27614,7 +27639,8 @@
 # text_source = p. 34
 # text_orig = Remeé panhé maá ta uputari waá.
 # text_annotator = LFdeA
-1	Remeẽ	meẽ	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
+# reviewer1 = Juliana Lopes Gurgel
+1	Remeẽ	meẽ	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	panhẽ	panhẽ	PRON	TOT	PronType=Tot	3	det	_	TokenRange=6:11
 3	maã	maã	PRON	IND	PronType=Ind	1	obj	_	TokenRange=12:15
 4	ta	ta	PRON	PRON	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	TokenRange=16:18
@@ -27629,6 +27655,7 @@
 # text_source = p. 36
 # text_orig = Yamunhã putari panhe maã aé umundú waá.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1-2	Yamunhã-putari	_	_	_	_	_	_	_	TokenRange=0:14
 1	Yamunhã	munhã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 2	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	1	aux	_	_
@@ -27646,6 +27673,7 @@
 # text_source = p. 37
 # text_orig = Yukasara suú yamaã waá kaá upé usikana
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	Yukasara	yukasara	NOUN	N	Number=Sing|Style=Rare	7	nsubj	_	LDeriv=yuká|StandardForm=Uyukasara|StandardPerson=3|TokenRange=0:8
 2	suú	suú	NOUN	N	Number=Sing	1	nmod	_	TokenRange=9:12
 3	yamaã	maã	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	1	acl:relcl	_	TokenRange=13:18
@@ -27663,6 +27691,8 @@
 # text_source = p. 37
 # text_orig = Putira, isakwena uyuká waá mira, utiní.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# review_status = ongoing
 1	Putira	putira	NOUN	N	Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=0:6
 2	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=6:7
 3	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=8:9
@@ -27681,12 +27711,13 @@
 # text_source = p. 37
 # text_orig = Kwa apigá usasá waá kwesé kwa rupí, aeté se mu.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1	Kwá	kwá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:3
 2	apigá	apigá	NOUN	N	Number=Sing	11	dislocated	_	TokenRange=4:9
 3	usasá	sasá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	acl:relcl	_	TokenRange=10:15
 4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	3	nsubj	_	TokenRange=16:19
 5	kwesé	kwesé	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=20:25
-6	kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	3	advmod	_	TokenRange=26:29
+6	kwá	kwá	ADV	ADVDX	AdvType=Loc|Deixis=Prox|PronType=Dem	3	obl	_	TokenRange=26:29
 7	rupí	rupí	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=30:34
 8	,	,	PUNCT	PUNCT	_	2	punct	_	TokenRange=34:35
 9	aité	aité	PRON	EMP	PronType=Emp	11	nsubj	_	TokenRange=36:40
@@ -27701,6 +27732,7 @@
 # text_source = p. 39
 # text_orig = Apiripana putari ne igara remunhã waá akwera mirá tawá suíwara.
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
 1-2	Apiripana-putari	_	_	_	_	_	_	_	TokenRange=0:16
 1	Apiripana	piripana	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
 2	putari	putari	AUX	AUXN	Compound=Yes|VerbForm=Inf	1	aux	_	_
@@ -27721,14 +27753,16 @@
 # text_source = p. 40
 # text_orig = Yandé yasarú usika waá pemanha, yaú arã pupunha yukisé
 # text_annotator = LFdeA
+# reviewer1 = Juliana Lopes Gurgel
+# inputline = Yandé/pron yasarú usika waá/sconj pe/pron2 manha, yaú arã/sconj pupunha yukisé.
 1	Yandé	yandé	PRON	PRON	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:5
 2	yasarú	sarú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	TokenRange=6:12
-3	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	acl:relcl	_	TokenRange=13:18
-4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	2	obj	_	TokenRange=19:22
+3	usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	ccomp	_	TokenRange=13:18
+4	waá	waá	SCONJ	SCONJ	_	3	mark	_	TokenRange=19:22
 5	pe	pe	PRON	PRON2	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=23:25
 6	manha	manha	NOUN	N	Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=26:31
 7	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=31:32
-8	yaú	ú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	3	advcl	_	TokenRange=33:36
+8	yaú	ú	VERB	V	Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	2	advcl	_	TokenRange=33:36
 9	arã	arã	SCONJ	SCONJ	_	8	mark	_	TokenRange=37:40
 10	pupunha	pupunha	NOUN	N	Number=Sing	11	nmod:poss	_	TokenRange=41:48
 11	yukisé	yukisé	NOUN	N	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=49:55
@@ -34045,11 +34079,11 @@
 # text_source = p. XII
 # text_orig = Munhá enê aê omunúca oá.
 # text_annotator = LFdeA
-1	Munhã	munhã	VERB	V	VerbForm=Inf	0	root	_	ModernForm=remunhã|ModernNumber=Sing|ModernPerson=2|ModernVerbForm=Fin|TokenRange=0:5
+1	Munhã	munhã	VERB	V	Style=Arch|VerbForm=Inf	0	root	_	ModernForm=remunhã|ModernMood=Imp|ModernNumber=Sing|ModernPerson=2|ModernVerbForm=Fin|TokenRange=0:5
 2	iné	iné	PRON	PRON	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	TokenRange=6:9
 3	aé	aé	PRON	PRON	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=10:12
-4	umunuka	munuka	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	acl:relcl	_	TokenRange=13:20
-5	waá	waá	PRON	REL	Number=Sing|PronType=Rel	1	obj	_	SpaceAfter=No|TokenRange=21:24
+4	umunuka	munuka	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	ccomp	_	TokenRange=13:20
+5	waá	waá	SCONJ	SCONJ	_	4	mark	_	SpaceAfter=No|TokenRange=21:24
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=24:25
 
 # sent_id = Seixas1853:0:0:100
@@ -35167,7 +35201,7 @@
 5	yurú	yurú	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=24:28
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
 
-# sent_id = Hart1938:0:0:91
+# sent_id = Hartt1938:0:0:91
 # text = Intí ã se kirimbá xasupiri arama maã i poréi reté waá.
 # text_eng = TODO
 # text_por = Não tenho bastante força para aguentar uma coisa muito pesada.
@@ -35227,6 +35261,32 @@
 5	ara	ara	NOUN	N	Number=Sing	1	obl	_	_
 6	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	5	case	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
+
+# sent_id = Hartt1938:0:0:108
+# text = I puséi aité maã xarasú waá se atiiwa árupi.
+# text_eng = What I carry on my shoulder is very heavy.
+# text_por = O que levo no ombro é muito pesado.
+# text_source = p. 327, No. 108
+# text_orig = iposéi aete maé xarasó uaé seatiyua árpe.
+# text_sec =  I pusé aité maã arasú waá se atiiwa árupi.
+# text_por_sec = Isto que eu levo sobre meu ombro é pesado.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# text_annotator = Dominick Maia Alexandre
+# inputline = I/pron2 puséi aité maã/ind xarasú waá se atiiwa árupi.
+# reviewer1 = Leonel Figueiredo de Alencar
+1	I	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	expl	_	TokenRange=0:1
+2	puséi	puséi	VERB	V2	Mood=Ind|VerbForm=Fin	0	root	_	TokenRange=2:7
+3	aité	aité	DET	EMP	PronType=Emp	4	det	_	TokenRange=8:12
+4	maã	maã	PRON	IND	PronType=Ind	2	nsubj	_	TokenRange=13:16
+5	xarasú	rasú	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	4	acl:relcl	_	ModernForm=arasú|TokenRange=17:23
+6	waá	waá	PRON	REL	Number=Sing|PronType=Rel	5	obj	_	TokenRange=24:27
+7	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	TokenRange=28:30
+8	atiiwa	atiiwa	NOUN	N	Number=Sing	9	nmod:poss	_	TokenRange=31:37
+9-10	árupi	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=38:43
+9	ara	ara	NOUN	N	Number=Sing	5	obl	_	_
+10	upé	upé	ADP	ADP	AdpType=Post|Clitic=Yes	9	case	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=43:44
 
 # sent_id = Hartt1938:0:0:147
 # text = Asú apagari nhaã apigawa supé.
@@ -35743,7 +35803,7 @@
 # text_eng = God saw that it was good.
 # text_por = Deus viu que era bom.
 # text_source = p. 69
-# text_orig = Tupana u-xipiá mahã catu' uahá.
+# text_orig = Tupana u-xipiá mahã catú uahá.
 # text_annotator = LFdeA
 1	Tupana	tupana	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:6
 2	uxipiá	xipiá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=7:13
