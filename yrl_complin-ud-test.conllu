@@ -625,7 +625,7 @@
 # text_eng = …nor I think of seeing you.
 # text_por = [...] nem penso em te ver.
 # text_source = p. 109
-# text_orig = …nẽ išé a-mãnduʔái [a-mãã ĩndé]S'Comp
+# text_orig = …nẽ išé a-mãnduʔái [a-mãʔã ĩndé]S'Comp
 # text_annotator = Leonel Figueiredo de Alencar
 1	[...]	[...]	PUNCT	ELIP	_	4	punct	_	TokenRange=0:5
 2	nẽ	nẽ	CCONJ	CCONJ	_	4	cc	_	TokenRange=6:8
@@ -5207,7 +5207,8 @@
 10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=48:49
 
 # sent_id = Avila2021:0:0:42
-# text = Mairamé nhaã kunhã usika maniwara ruka upé, umaã yepé mira mirĩ urikú waá i awawasú asuí i pi-itá uyeréu waá sakakwera kití, [...].
+# text = Mairamé nhaã kunhã usika maniwara ruka upé, umaã yepé mira mirĩ urikú waá i awawasú asuí i pí-itá uyeréu waá sakakwera kití, [...].
+# text_orig = Mairamé nhaã kunhã usika maniwara ruka upé, umaã yepé mira mirĩ urikú waá i awawasú asuí i pi-itá uyeréu waá sakakwera kití, [...].
 # text_eng = When that woman arrived at the nest of maniuara ants, she saw a little guy who had big hair and feet turned back, [...].
 # text_por = Quando aquela mulher chegou ao ninho de maniuaras, viu um sujeitinho que tinha cabelo grande e pés voltados para trás, [...].
 # text_source = Comunidade Indígena Anamuim, 25, adap.
@@ -5230,7 +5231,7 @@
 16	awawasú	awa	NOUN	N	Degree=Aug|Number=Sing	13	obj	_	TokenRange=76:83
 17	asuí	asuí	CCONJ	CCONJ	_	19	mark	_	TokenRange=84:88
 18	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	TokenRange=89:90
-19	pi-itá	pi	NOUN	N	Number=Plur	16	conj	_	TokenRange=91:97
+19	pí-itá	pí	NOUN	N	Number=Plur	16	conj	_	TokenRange=91:97
 20	uyeréu	yeréu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	19	acl:relcl	_	TokenRange=98:104
 21	waá	waá	PRON	REL	Number=Sing|PronType=Rel	20	nsubj	_	TokenRange=105:108
 22	sakakwera	takakwera	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	20	obl	_	TokenRange=109:118
@@ -6313,6 +6314,7 @@
 # text_eng = How is he?
 # text_por = Como é que ele é?
 # text_source = Magalhães, 120, adap.
+# text_orig = Maiaué tahá ahé?
 # text_annotator = Leonel Figueiredo de Alencar
 1	Mayé	mayé	ADV	ADVRA	AdvType=Man|PronType=Int	0	root	_	TokenRange=0:4
 2	taá	taá	PART	CQ	PartType=Int	1	advmod	_	TokenRange=5:8
@@ -9271,7 +9273,7 @@
 # text_por = Como tens passado?
 # text_source = Magalhães, 89, adap.
 # text_prim = Maíta rẹçaçáu?
-# cross_reference = Avila2021:51:1:689
+# cross_reference = Avila2021:51:1:688
 # text_annotator = Leonel Figueiredo de Alencar
 # reviewer1 = Juliana Lopes Gurgel
 # reviewer2 = Dominick Maia Alexandre
@@ -10299,7 +10301,9 @@
 # text = Aité nhaã upé pixuna waá, amú tẽ i suí nhaã piranga waá.
 # text_eng = That "upé" tortoise that is black, different from the red one.
 # text_por = Aquele "upé" que é preto, diferente do vermelho.
-# text_source = Leetra Indígena. n. 17, 15, adap.
+# text_source = Leetra Indígena. n. 17, 77, adap.
+# text_source_orig = Leetra Indígena. n. 17, 15, adap.
+# text_prim = Aité yam upé pixuna waá, amum te isui yam piramga waá.
 # text_annotator = Leonel Figueiredo de Alencar
 1	Aité	aité	PRON	EMP	PronType=Emp	3	det	_	TokenRange=0:4
 2	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	3	det	_	TokenRange=5:9
@@ -11746,7 +11750,7 @@
 17	,	,	PUNCT	PUNCT	_	20	punct	_	TokenRange=67:68
 18	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	20	advmod	_	TokenRange=69:71
 19	yepé	yepé	PART	FRUST	Aspect=Frus	20	advmod	_	TokenRange=72:76
-20	uputarisá	putari	VERB	V	Person=3|VerbForm=Vnoun	25	obl	_	SpaceAfter=No|TokenRange=77:86
+20	uputarisá	putari	VERB	V	Person=3|VerbForm=Vnoun	25	advcl	_	SpaceAfter=No|TokenRange=77:86
 21	,	,	PUNCT	PUNCT	_	20	punct	_	TokenRange=86:87
 22	yawé	yawé	ADV	ADVA	AdvType=Man|ExtPos=ADV	25	advmod	_	TokenRange=88:92
 23	waá	waá	PRON	REL	Number=Sing|PronType=Rel	22	fixed	_	TokenRange=93:96
@@ -11913,8 +11917,15 @@
 
 # sent_id = Avila2021:0:0:383
 # text = Ape ana tẽ paá tipusiwasú umungiri aé.
-# text_eng = At the same moment, they say, a great sleep fell asleep.
+# text_eng = At the same moment, they say, a great sleep put her to sleep.
+# text_eng_gll = At the same moment, they say, a great sleep fell asleep.
 # text_por = No mesmo momento, contam, um sono grande adormeceu-a.
+# text_por_prim = No mesmo momento, contam, sono grande adormeceu-a.
+# text_prim = Ape ana ten, paa, tepusy, uasu omungêre aé.
+# text_prim_source = Amorim (1928:175)
+# text_por_prim_source = Amorim (1928:169)
+# text_prim_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
+# text_por_prim_transcriber = Gabriela Lourenço Fernandes, Biblioteca Brasiliana Guita e José Mindlin
 # text_source = Amorim, 177, adap.
 # text_annotator = Leonel Figueiredo de Alencar
 1	Ape	ape	ADV	ADVT	AdvType=Tim	6	advmod	_	TokenRange=0:3
@@ -12814,7 +12825,7 @@
 # text_source = Avila (2021)
 # text_annotator = Leonel Figueiredo de Alencar
 1	Asuwara	sú	VERB	V	Aspect=Freq|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=0:7
-2	mikití	mikití	ADV	ADVC	AdvType=Loc	1	advmod	_	SpaceAfter=No|TokenRange=8:14
+2	mikití	mikití	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	1	advmod	_	SpaceAfter=No|TokenRange=8:14
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=14:15
 
 # sent_id = Avila2021:0:0:433
@@ -12841,7 +12852,7 @@
 1	Wirandé	wirandé	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:7
 2	kurí	kurí	PART	FUT	Tense=Fut	3	advmod	_	TokenRange=8:12
 3	resú	sú	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	TokenRange=13:17
-4	mikití	mikití	ADV	ADVC	AdvType=Loc	3	advmod	_	SpaceAfter=No|TokenRange=18:24
+4	mikití	mikití	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	3	advmod	_	SpaceAfter=No|TokenRange=18:24
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=24:25
 
 # sent_id = Avila2021:0:0:435
@@ -12855,7 +12866,7 @@
 3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=14:15
 4	―	―	PUNCT	PUNCT	_	5	punct	_	TokenRange=15:16
 5	Retirika	tirika	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=17:25
-6	mikití	mikití	ADV	ADVC	AdvType=Loc	5	advmod	_	TokenRange=26:32
+6	mikití	mikití	ADV	ADVDI	AdvType=Loc|Deixis=Remt|PronType=Dem	5	advmod	_	TokenRange=26:32
 7	xinga	xinga	ADV	ADVS	AdvType=Deg	5	advmod	_	SpaceAfter=No|TokenRange=33:38
 8	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=38:39
 
