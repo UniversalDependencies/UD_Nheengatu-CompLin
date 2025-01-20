@@ -18963,16 +18963,20 @@
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=19:20
 
 # sent_id = Hartt1938:0:0:20
-# text = Mundawasú uyawáu.
+# text = Munawasú uyawáu.
 # text_eng = The thief fled.
 # text_por = O ladrão fugiu.
+# text_por_orig = O ladrão grande fugiu.
 # text_source = p. 320, No. 20
 # text_orig = muná uasú oyanáu.
+# text_sec = Mundawasú uyawáu.
+# text_sec_source = Avila (2021)
+# text_por_source = Avila (2021)
 # text_annotator = Dominick Maia Alexandre
 # reviewer1 = Leonel Figueiredo de Alencar
-1	Mundawasú	mundawasú	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:9
-2	uyawáu	yawáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:16
-3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=16:17
+1	Munawasú	munawasú	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:8
+2	uyawáu	yawáu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=9:15
+3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Hartt1938:0:0:21
 # text = Asetuna reté, i katú reté se tĩ.
@@ -19447,6 +19451,28 @@
 4	kunhataĩ	kunhataĩ	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=18:23
 5	yurú	yurú	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=24:28
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
+
+# sent_id = Hartt1938:0:0:78
+# text = Kwaá se membira i atiima, i xirĩwasú yuíri.
+# text_por = Meu filho é preguiçoso e mentiroso também.
+# text_source = p. 324, No. 78
+# text_orig = kuaá semymyra iatyyma, ixirín osú yuír.
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# inputline = Kwaá/demx se membira i/pron2 atiima/v2, i/pron2 xirĩwasú/=ev:x|v2 yuíri/cconj.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Kwaá	kwaá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	3	det	_	TokenRange=0:4
+2	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=5:7
+3	membira	membira	NOUN	N	Number=Sing	5	nsubj	_	TokenRange=8:15
+4	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	expl	_	TokenRange=16:17
+5	atiima	atiima	VERB	V2	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=18:24
+6	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=24:25
+7	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	TokenRange=26:27
+8	xirĩwasú	xirĩ	VERB	V2	Degree=Aug|Mood=Ind|VerbForm=Fin	5	conj	_	TokenRange=28:36
+9	yuíri	yuíri	CCONJ	CCONJ	_	8	cc	_	SpaceAfter=No|TokenRange=37:42
+10	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|TokenRange=42:43
 
 # sent_id = Hartt1938:0:0:91
 # text = Intí ã se kirimbá xasupiri arama maã i poréi reté waá.
@@ -20042,6 +20068,25 @@
 2	xayumumunéu	muamunéu	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|Typo=Yes|VerbForm=Fin|Voice=Mid,Pass	0	root	_	CorrectForm=xayumuamunéu|ModernForm=ayumumunéu|SpaceAfter=No|TokenRange=5:16
 3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=16:17
 
+# sent_id = Hartt1938:0:0:238
+# text = Se paya se nupá tupasamawasú irũ.
+# text_por = Meu pai me bateu com chicote.
+# text_source = p. 336, No. 238
+# text_orig = sepaia senupan tupasáma uasú irúm.
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# inputline = Se paya se/=mf:m|ixé nupá/=mf:m|unupá tupasamawasú/=aug irũ/adp.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
+2	paya	paya	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=3:7
+3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Arch	4	obj	_	ModernCase=Acc,Nom|ModernForm=ixé|ModernLemma=ixé|ModernProntype=Prs|TokenRange=8:10
+4	nupá	nupá	VERB	V	Style=Arch|VerbForm=Inf	0	root	_	ModernForm=unupá|ModernMood=Ind|ModernPerson=3|ModernVerbform=Fin|TokenRange=11:15
+5	tupasamawasú	tupasama	NOUN	N	Degree=Aug|Number=Sing	4	obl	_	TokenRange=16:28
+6	irũ	irũ	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=29:32
+7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=32:33
+
 # sent_id = Hartt1938:0:0:245
 # text = Ekũi Antônio piri.
 # text_por = Vai ter com Antônio.
@@ -20129,6 +20174,24 @@
 5	piamu	piamu	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=23:28
 6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=28:29
 
+# sent_id = Hartt1938:0:0:281
+# text = Kwaá apigawa i xirĩ reté.
+# text_por = Este homem é muito mentiroso.
+# text_source = p. 339, No. 281
+# text_orig = kuaá apyáua ixirin reté.
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# inputline = Kwaá/demx apigawa/n i/pron2 xirĩ/v2 reté/advs.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Kwaá	kwaá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
+2	apigawa	apigawa	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=5:12
+3	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	expl	_	TokenRange=13:14
+4	xirĩ	xirĩ	VERB	V2	Mood=Ind|VerbForm=Fin	0	root	_	TokenRange=15:19
+5	reté	reté	ADV	ADVS	AdvType=Deg	4	advmod	_	SpaceAfter=No|TokenRange=20:24
+6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=24:25
+
 # sent_id = Hartt1938:0:0:286
 # text = Ekũi eyuuka paka mundé suí, tenhẽ emuyawáu!
 # text_por = Vai tirar a paca do mundéu, não deixa fugir.
@@ -20167,6 +20230,51 @@
 5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	iobj	_	TokenRange=22:23
 6	xupé	xupé	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=24:28
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=28:29
+
+# sent_id = Hartt1938:0:0:346
+# text = Ukiri wé será taína?
+# text_por = Ainda dorme a criança?
+# text_source = p. 344, No. 346
+# text_orig = okér oé será tayna?
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# text_sec = Ukiri wé será taína?
+# text_por_sec = Ainda dorme a criança?
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# inputline = Ukiri wé será taína?
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Ukiri	kiri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
+2	wé	wé	PART	CONT	Aspect=Cont	1	advmod	_	TokenRange=6:8
+3	será	será	PART	PQ	PartType=Int	1	advmod	_	TokenRange=9:13
+4	taína	taína	NOUN	N	Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=14:19
+5	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=19:20
+
+# sent_id = Hartt1938:0:0:724
+# text = Xarikú yepé se kiwira sikwé wé waá.
+# text_por = Tenho um irmão vivo.
+# text_source = p. 371, No. 724
+# text_orig = xarekó oyepé kyuíra sekouecé uaé.
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# text_sec = Arikú yepé se kiwira sikwé wé waá.
+# text_por_sec = Tenho um irmão que ainda está vivo.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# inputline = Xarikú yepé/art se kiwira sikwé/v2 wé waá/rel.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Xarikú	rikú	VERB	V	Mood=Ind|Number=Sing|Person=1|Style=Arch|VerbForm=Fin	0	root	_	ModernForm=Arikú|TokenRange=0:6
+2	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	4	det	_	TokenRange=7:11
+3	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=12:14
+4	kiwira	kiwira	NOUN	N	Number=Sing	1	obj	_	TokenRange=15:21
+5	sikwé	rikwé	VERB	V2	Mood=Ind|Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	4	acl:relcl	_	TokenRange=22:27
+6	wé	wé	PART	CONT	Aspect=Cont	5	advmod	_	TokenRange=28:30
+7	waá	waá	PRON	REL	Number=Sing|PronType=Rel	5	nsubj	_	SpaceAfter=No|TokenRange=31:34
+8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=34:35
 
 # sent_id = Hartt1938:0:0:460
 # text = Kwaá imirá uikupukú muíri akayú pura.
@@ -20266,6 +20374,27 @@
 6	warama	warama	ADP	ADP	AdpType=Post	5	case	_	TokenRange=23:29
 7	ixéu	ixéu	PRON	PROND	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No|TokenRange=30:34
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=34:35
+
+# sent_id = Hartt1938:0:0:645
+# text = Antônio i xirixirĩ.
+# text_por = Antônio é muito falso.
+# text_source = p. 366, No. 645
+# text_orig = Antonio ixirixirim (Mauhé).
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# text_sec = Antonio i xirixirĩ.
+# text_por_sec = Antônio é muito falso.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# ethnicity_orig = Mauhé
+# inputline = Antônio/=p i/pron2 xirixirĩ/=red:l|4:x|v2.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Antônio	antônio	PROPN	PROPN	_	3	nsubj	_	TokenRange=0:7
+2	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	expl	_	TokenRange=8:9
+3	xirixirĩ	xirĩ	VERB	V2	Mood=Ind|Red=Yes|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:18
+4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=18:19
 
 # sent_id = Hartt1938:0:0:692
 # text = Iné ne kirimawa piri amú-itá suí.
@@ -20392,6 +20521,8 @@
 # text_por_sec_source = Avila (2021)
 # inputline = Maã/int resé/adp intí remenari-putari se irũ/adp?
 # text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+# review_status = ongoing
 1	Maã	maã	PRON	INT	PronType=Int	4	obl	_	TokenRange=0:3
 2	resé	resé	ADP	ADP	AdpType=Post|Rel=Cont	1	case	_	TokenRange=4:8
 3	intí	intí	PART	NEG	PartType=Neg|Polarity=Neg	4	advmod	_	TokenRange=9:13
@@ -20401,6 +20532,27 @@
 6	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	TokenRange=30:32
 7	irũ	irũ	ADP	ADP	AdpType=Post	6	case	_	SpaceAfter=No|TokenRange=33:36
 8	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=36:37
+
+# sent_id = Hartt1938:0:0:814
+# text = Kwaá kurumiwasú i kirimawausú.
+# text_por = Este moço é valente.
+# text_source = p. 378, No. 814
+# text_orig = kuaá kurumí asú ikyrymáua osú.
+# text_eng = TODO
+# text_orig_transcriber = Antônio Levy Melo Nogueira
+# text_por_modernizer = Antônio Levy Melo Nogueira
+# text_sec = Kwaá kurumiwasú i kirimbawasú.
+# text_por_sec = Este moço é valente.
+# text_sec_source = Avila (2021)
+# text_por_sec_source = Avila (2021)
+# inputline = Kwaá/demx kurumiwasú i/pron2 kirimawausú/=ev:x|v2.
+# text_annotator = Dominick Maia Alexandre
+# reviewer1 = Leonel Figueiredo de Alencar
+1	Kwaá	kwaá	DET	DEMX	Deixis=Prox|Number=Sing|PronType=Dem	2	det	_	TokenRange=0:4
+2	kurumiwasú	kurumiwasú	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=5:15
+3	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	expl	_	TokenRange=16:17
+4	kirimawausú	kirimawa	VERB	V2	Degree=Aug|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=18:29
+5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=29:30
 
 # sent_id = Hartt1938:0:0:847
 # text = Rerikú será urusakã purã ne "vizinho" suí?
