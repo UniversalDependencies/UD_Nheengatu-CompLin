@@ -1,40 +1,42 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Nheengatu-CompLin:
-commit 05f4e0d52b4e7eb8873ee2bcceb62a411c4fa5b0
-Merge: a664f46 26eaa04
+commit af6860c64b2da728f05ba689590a6173a3ddf3d8
+Merge: 9ea6be6 0e9371a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 19278 of 19278 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.91792909872355.
+Size: counted 21813 of 21813 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.16501224467206.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 14099 out of 19278 total words have one or more features.
+Features: 16010 out of 21813 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 33 out of 37 found in the corpus.
+Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         58
-Udapi: found 58 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 19278 words.
-Genres: found 5 out of 17 known.
+               TOTAL         12
+Udapi: found 12 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 21813 words.
+Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang yrl --max-err=10 UD_Nheengatu-CompLin/yrl_complin-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang yrl --max-err=10 UD_Nheengatu-CompLin/yrl_complin-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
+(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.428353991978387) = 0.109834356917535
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.256410256410256) * (score{size}=0.446238466454509) = 0.11442011960372
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.969913891482519) = 0.298435043533083
-(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.743181144774127) * (availability=1) * (validity=1) = 0.743181144774127
-STARS = 3.5
-UD_Nheengatu-CompLin	0.743181144774127	3.5
+(weight=0.307692307692308) * (score{udapi}=0.994498693439692) = 0.305999597981444
+(weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
+(TOTAL score=0.773076627889133) * (availability=1) * (validity=1) = 0.773076627889133
+STARS = 4
+UD_Nheengatu-CompLin	0.773076627889133	4
