@@ -5092,10 +5092,14 @@
 20	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=90:91
 
 # sent_id = Avila2021:0:0:37
-# text = Yepé apigawa usú ukamundú, uwasemu suasú-kunhã i membira irumu.
+# text = Yepé apigawa usú ukamundú, uwasemu suasú kunhã i membira irumu.
 # text_eng = A man went hunting and found a deer with her calf.
 # text_por = Um homem foi caçar e encontrou uma veada com seu filhote.
+# text_orig = Yepé apigawa usú ukamundú, uwasemu suasú-kunhã i membira irumu.
+# text_prim = Yepé apegaua u çu camundu u acema çuaçu cunhan i membira irumo.
+# text_prim_transcriber = Susan Gabriela Huallpa Huanacuni, Biblioteca Brasiliana Guita e José Mindlin
 # text_source = Rodrigues, 135, adap.
+# inputline = Yepé/art apigawa/n usú ukamundú, uwasemu suasú kunhã i/pron2 membira irumu/adp.
 # text_annotator = Leonel Figueiredo de Alencar
 1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
 2	apigawa	apigawa	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=5:12
@@ -5103,11 +5107,12 @@
 4	ukamundú	kamundú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=17:25
 5	,	,	PUNCT	PUNCT	_	6	punct	_	TokenRange=25:26
 6	uwasemu	wasemu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	parataxis	_	TokenRange=27:34
-7	suasú-kunhã	suasú-kunhã	NOUN	N	Number=Sing	6	obj	_	TokenRange=35:46
-8	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	TokenRange=47:48
-9	membira	membira	NOUN	N	Number=Sing	7	nmod:poss	_	TokenRange=49:56
-10	irumu	irumu	ADP	ADP	AdpType=Post	9	case	_	SpaceAfter=No|TokenRange=57:62
-11	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=62:63
+7	suasú	suasú	NOUN	N	Number=Sing	8	nmod:poss	_	TokenRange=35:40
+8	kunhã	kunhã	NOUN	N	Number=Sing	6	obj	_	TokenRange=41:46
+9	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=47:48
+10	membira	membira	NOUN	N	Number=Sing	8	nmod	_	TokenRange=49:56
+11	irumu	irumu	ADP	ADP	AdpType=Post	10	case	_	SpaceAfter=No|TokenRange=57:62
+12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=62:63
 
 # sent_id = Avila2021:0:0:38
 # text = I paya usú pukusawa upurungitá payé irumu, i manha yuíri usú uwatá, nhaã pukusawa nhaã apigawa mirĩ upisika suíwa mirapara irumu, usú ukamundú.
@@ -5844,6 +5849,7 @@
 # text_por = Então eles fizeram seus cocares, que eram muito bonitos, [...].
 # text_source = Leetra Indígena. n. 17, 31, adap.
 # text_annotator = Leonel Figueiredo de Alencar
+# inputline = Aiwã paá ta/pron umunhã ta/pron2 kangatara-itá rã/fut, purapuranga/=red:l|4:x|a waá-itá/rel, [...].
 1	Aiwã	aiwã	ADV	ADVT	AdvType=Tim	4	advmod	_	TokenRange=0:4
 2	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	4	advmod	_	TokenRange=5:8
 3	ta	ta	PRON	PRON	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	TokenRange=9:11
@@ -7056,10 +7062,11 @@
 # text_eng = He who lives with his enemy cannot rest easy.
 # text_por = Quem [é aquele que] mora com seu inimigo não pode ficar tranquilo.
 # text_source = Magalhães, 220, adap.
+# text_orig = Auá nhahã oikộ uahá çuáɨẫna irúmo intí opituú quáu. 
 # text_annotator = Leonel Figueiredo de Alencar
-1	Awá	awá	PRON	IND	PronType=Ind	2	nsubj	_	TokenRange=0:3
-2	nhaã	nhaã	PRON	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	8	csubj	_	TokenRange=4:8
-3	uikú	ikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	acl:relcl	_	TokenRange=9:13
+1	Awá	awá	PRON	IND	PronType=Ind	8	nsubj	_	TokenRange=0:3
+2	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	1	det	_	TokenRange=4:8
+3	uikú	ikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	acl:relcl	_	TokenRange=9:13
 4	waá	waá	PRON	REL	Number=Sing|PronType=Rel	3	nsubj	_	TokenRange=14:17
 5	suayana	suayana	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3|Rel=NCont	3	obl	_	TokenRange=18:25
 6	irumu	irumu	ADP	ADP	AdpType=Post	5	case	_	TokenRange=26:31
@@ -9792,6 +9799,7 @@
 # text_por = [...] mano, agora decerto será bom, nós decerto abraçaremos aquelas mulheres lindas.
 # text_source = Leetra Indígena. n. 17, 31, adap.
 # text_annotator = Leonel Figueiredo de Alencar
+# inputline = [...] se mú, kuíri kurí pu puranga/a, yandé/pron kurí pu yasú yayumana nhaã kunhã-itá purapuranga/=red:l|4:x|a waá-itá/rel.
 1	[...]	[...]	PUNCT	ELIP	_	3	punct	_	TokenRange=0:5
 2	se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=6:8
 3	mú	mú	NOUN	N	Number=Sing	8	vocative	_	SpaceAfter=No|TokenRange=9:11
@@ -10642,6 +10650,7 @@
 # text_por = Avançada a noite, contam, quando todos já tinham se embriagado um pouco, eles viram aparecer no meio de sua festa muitos homens brancos que eram clarinhos.
 # text_source = Casasnovas, 72-3, adap.
 # text_annotator = Leonel Figueiredo de Alencar
+# inputline = Ikupukú/v3 ã/pfv paá/rprt pituna/n, mairamé/sconjr mira-itá/n ta/pron ukaúkaú/=red:l|3 xinga/advs pawa/total, ta/pron umaã/v uyukwá/v ta/pron2 murasí/n pitérupi siiya/indq kariwa/n tipitinga/a mirĩ/advs waá-itá/rel.
 1	Ikupukú	ikupukú	VERB	V3	Mood=Ind|Number=Sing|Person=3|Rel=NCont|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	ã	ã	PART	PFV	Aspect=Perf	1	advmod	_	TokenRange=8:9
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	1	advmod	_	TokenRange=10:13
@@ -11712,6 +11721,7 @@
 # text_por = Por isso, nós, coitados, não saímos muito bonitos.
 # text_source = Leetra Indígena. n. 17, 37, adap.
 # text_annotator = Leonel Figueiredo de Alencar
+# inputline = Yawé/adva arã/adp paá yandé/pron, taité/intj, ti yasemu purapuranga/=red:x|a:l|4.
 1	Yawé	yawé	ADV	ADVA	AdvType=Man|ExtPos=ADV	9	advmod	_	TokenRange=0:4
 2	arã	arã	ADP	ADP	AdpType=Post	1	fixed	_	TokenRange=5:8
 3	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	9	advmod	_	TokenRange=9:12
@@ -14429,14 +14439,14 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=19:20
 
 # sent_id = Avila2021:0:0:525
-# text = Ariré nhaã kunhãmukú upitá i puruã tenhuntu, ti masuí apigawa uyukwáu.
+# text = Ariré nhaã kunhamukú upitá i puruã tenhuntu, ti masuí apigawa uyukwáu.
 # text_eng = Then that woman got pregnant for no reason, no man appeared from anywhere.
 # text_por = Depois aquela mulher ficou grávida sem motivo, não apareceu homem de parte alguma.
 # text_source = Rodrigues, 101, adap.
 # text_annotator = Leonel Figueiredo de Alencar
 1	Ariré	ariré	ADV	ADVT	AdvType=Tim	4	advmod	_	TokenRange=0:5
 2	nhaã	nhaã	DET	DEMS	Deixis=Remt|Number=Sing|PronType=Dem	3	det	_	TokenRange=6:10
-3	kunhãmukú	kunhãmukú	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=11:20
+3	kunhamukú	kunhamukú	NOUN	N	Number=Sing	4	nsubj	_	TokenRange=11:20
 4	upitá	pitá	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=21:26
 5	i	i	PRON	PRON2	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	TokenRange=27:28
 6	puruã	puruã	VERB	V2	Mood=Ind|VerbForm=Fin	4	parataxis	_	TokenRange=29:34
