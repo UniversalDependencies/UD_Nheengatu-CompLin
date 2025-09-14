@@ -153,6 +153,7 @@ Here is the BibTeX entry formatted according to APA style:
 Data available since: UD v2.11
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken bible fiction nonfiction grammar-examples
 Lemmas: manual native
 UPOS: manual native
