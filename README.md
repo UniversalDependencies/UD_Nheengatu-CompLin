@@ -15,7 +15,7 @@ The following repository contains the most up-to-date development version of the
 
 https://github.com/CompLin/nheengatu
 
-So far, the treebank includes examples from Seixas (1853), Hartt (1872), Magalhães (1876), Sympson (1877), Rogrigues (1890), Aguiar (1898), Costa (1909), Studart (1926), Amorim (1928), Hartt (1938), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Stradelli (1929/2014), Navarro (2016), Melgueiro, Câmara, and Martins (2019), Muller et al. (2019), Alencar (2021), Avila (2021), and Melgueiro (2022) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019) and from issues 3 and 17 of the *Leetra Indígena* journal (Universidade Federal de São Carlos, 2014, 2015).
+So far, the treebank includes examples from Seixas (1853), Hartt (1872), Magalhães (1876), Sympson (1877), Rogrigues (1890), Aguiar (1898), Costa (1909), Studart (1926), Amorim (1928), Hartt (1938), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Str adelli (1929/2014), Navarro (2016), Melgueiro, Câmara, and Martins (2019), Muller et al. (2019), Alencar (2021), Avila (2021), and Melgueiro (2022) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019) and from issues 3 and 17 of the *Leetra Indígena* journal (Universidade Federal de São Carlos, 2014, 2015).
 
 # How to cite
 If you use this treebank, or any of the tools and resources available in the repository mentioned above, please cite the following papers as appropriate:
