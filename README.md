@@ -5,7 +5,7 @@ The [UD_Nheengatu-CompLin](https://aclanthology.org/2024.propor-2.8) is a treeba
 
 # Introduction
 
-This is the first morphosyntactic treebank of Nheengatu. It is a work in progress. The initial release only contained a couple hundred sentences. This new release encompasses more than 13 times that number. We plan to continually expand the resource in the next months.
+This is the first morphosyntactic treebank of Nheengatu. It is a work in progress. We plan to continually expand the resource in the coming months.
 
 The treebank comprises sentences from diverse published sources freely available on the Internet, e.g., grammatical descriptions, fables, myths, coursebooks, and dictionaries. The sentences were either extracted from PDF text files, transcribed from non-searchable (image-only) PDF files, or manually converted to orthography from phonetic transcriptions. Throughout the treebank, we mostly use the spelling system proposed by Avila (2021), only diverging from this in a few instances. The annotation was performed semi-automatically, i.e., we first applied the Yauti morphosyntactic analyzer (de Alencar 2023, 2025) to each sentence and then manually revised the output.
 
@@ -150,6 +150,8 @@ Copyright of the treebank sentences and their translations belongs to their resp
 * Cruz, Aline da. (2011). *Fonologia e gramática do nheengatú: A língua falada pelos povos Baré, Warekena e Baniwa*. Netherlands National Graduate School of Linguistics.
 * de Alencar, Leonel Figueiredo. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717-1777. doi:http://dx.doi.org/10.17851/2237-2083.29.3.1717-1777
 * de Amorim, Antonio Brandão. (1928). Lendas em nheêngatú e em portuguez. *Revista do Instituto Historico e Geographico Brasileiro, 154*(100), 9-475.
+* Hartt, Charles Frederick. (1872). *Notes on the Lingoa Geral or Modern Tupi of the Amazonas*. Transactions of the American Philological Association, 3, 58–76. https://www.jstor.org/stable/310258
+* Hartt, Charles Frederick. (1938). *Notas sobre a língua geral, ou tupí moderno do Amazonas*. Anais da Biblioteca Nacional do Rio de Janeiro, 51, 305–390. Rio de Janeiro: M. E. S. Serviço Gráfico.
 * de Magalhães, J. V. C. (1876). *O selvagem*. Typographia da Reforma.
 * Maslova, Irina. (2018). *Tradução Comentada de Mitos e Lendas Amazônicas do Nheengatu para o Russo*. [Master's thesis, University of São Paulo]. doi:10.11606/D.8.2019.tde-22022019-175350
 * Melgueiro, Edilson Martins, Ana Suelly Arruda Câmara, & Martins, Marci Fileti. (2019). Orações relativas em Nheengatú ou Ingatú. *Revista Brasileira de Linguística Antropológica, 11*(2), 16. https://doi.org/10.26512/rbla.v11i02.28115
@@ -187,7 +189,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: de Alencar, Leonel Figueiredo
+Contributors: de Alencar, Leonel Figueiredo; Alexandre, Dominick Maia
 Contributing: elsewhere
 Contact: leonel.de.alencar@ufc.br
 ===============================================================================
