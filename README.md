@@ -128,15 +128,15 @@ ALENCAR, Leonel Figueiredo de. Yauti: A Tool for Morphosyntactic Analysis of Nhe
 
 # Acknowledgments
 
-We thank Eduardo de Almeida Navarro (University of São Paulo) for kindly allowing us to use examples and texts from his coursebook (Navarro 2016), whose glossary served as the initial basis for the morphological analyzer we implemented to annotate the UD_Nheengatu-CompLin treebank.
+We thank Eduardo de Almeida Navarro (University of São Paulo) for kindly allowing us to use examples and texts from his coursebook (Navarro 2016), whose glossary served as the initial basis for the morphological analyzer used to annotate the UD_Nheengatu-CompLin treebank.
 
-We owe much to Avila (2021)'s dictionary, from which numerous treebank sentences stem. This dictionary also provided invaluable lexical, grammatical, and semantic information for the further development of the morphological analyzer and related treebank annotation tools. We are much obliged to its author, Marcel Twardowsky Avila, for making the XML version of the dictionary available to us and clarifying many questions about the dictionary entries.
+We are greatly indebted to Avila (2021)'s dictionary, from which numerous treebank sentences are drawn. This resource also provided invaluable lexical, grammatical, and semantic information for the further development of the morphological analyzer and related annotation tools. We are especially grateful to its author, Marcel Twardowsky Avila, for making the XML version of the dictionary available to us and for clarifying many questions regarding its entries.
 
-We gratefully acknowledge the scholarships provided to annotators by both the São Paulo State Research Support Foundation (FAPESP) through the [DACILAT](https://bv.fapesp.br/57063) project under Process No. 22/09158-5 and the Foundation for the Support and Development of Research in the State of Ceará (FUNCAP).
+We gratefully acknowledge the scholarships awarded to annotators by the São Paulo Research Foundation (FAPESP), through the [DACILAT](https://bv.fapesp.br/57063) project (Process No. 22/09158-5), and by the Foundation for the Support and Development of Research in the State of Ceará (FUNCAP).
 
-We are indebted to Gabriela Lourenço Fernandes and Susan Gabriela Huallpa Huanacuni, internees of the [Biblioteca Brasiliana Guita e José Mindlin](https://www.bbm.usp.br/pt-br/) of the University of São Paulo (USP), as well as to its research specialist and curator João Marcos Cardoso, for transcriptions of stories from Amorim (1928) and Rodrigues (1890).
+We are indebted to Gabriela Lourenço Fernandes and Susan Gabriela Huallpa Huanacuni, interns at the [Biblioteca Brasiliana Guita e José Mindlin](https://www.bbm.usp.br/pt-br/) of the University of São Paulo (USP), as well as to its research specialist and curator, João Marcos Cardoso, for their transcriptions of stories from Amorim (1928) and Rodrigues (1890).
 
-Thanks are also due to the Federal University of Amazonas Press (*Editora da Universidade Federal do Amazonas* — UFAM), particularly to its director, Sérgio Freire, for granting permission to incorporate texts from Casasnovas (2006) into the treebank.
+We also thank the Federal University of Amazonas Press (*Editora da Universidade Federal do Amazonas* — UFAM), particularly its director, Sérgio Freire, for granting permission to incorporate texts from Casasnovas (2006) into the treebank.
 
 ## License
 
