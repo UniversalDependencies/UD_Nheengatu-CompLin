@@ -5,17 +5,19 @@ The [UD_Nheengatu-CompLin](https://aclanthology.org/2024.propor-2.8) is a treeba
 
 # Introduction
 
-This is the first morphosyntactic treebank of Nheengatu. It is a work in progress. We plan to continually expand the resource in the coming months.
+This is the first morphosyntactic treebank of Nheengatu. It remains a work in progress, with ongoing expansion planned for the coming months.
 
-The treebank comprises sentences from diverse published sources freely available on the Internet, e.g., grammatical descriptions, fables, myths, coursebooks, and dictionaries. The sentences were either extracted from PDF text files, transcribed from non-searchable (image-only) PDF files, or manually converted to orthography from phonetic transcriptions. Throughout the treebank, we mostly use the spelling system proposed by Avila (2021), only diverging from this in a few instances. The annotation was performed semi-automatically, i.e., we first applied the Yauti morphosyntactic analyzer (de Alencar 2023, 2025) to each sentence and then manually revised the output.
+The treebank comprises sentences from a wide range of published sources freely available online, including grammatical descriptions, fables, myths, coursebooks, and dictionaries. The sentences were extracted either from PDF text files, transcribed from non-searchable (image-only) PDFs, or manually converted from phonetic transcriptions into orthography. Throughout the treebank, we generally adopt the spelling system proposed by Avila (2021), diverging from it only in a few cases.
 
-The development of this treebank and related tools and resources is part of the research activities of the Research Group on Computation and Natural Language (*Computação e Linguagem Natural* — CompLin) at the Humanities Center of the Federal University of Ceará in Brazil. The main contributor to this effort is Leonel Figueiredo de Alencar, coordinator of the CompLin group. Additional annotators include Dominick Maia Alexandre, Hélio Leonam Barroso Silva, and Juliana Lopes Gurgel, who was scholarship holder with the [DACILAT](https://bv.fapesp.br/57063) project, funded by the São Paulo State Research Support Foundation (*Fundação de Amparo à Pesquisa do Estado de São Paulo* — FAPESP) under Process No. 22/09158-5.
+The annotation was performed semi-automatically: we first applied the Yauti morphosyntactic analyzer (de Alencar 2023, 2025) to each sentence and then manually revised the output.
 
-The following repository contains the most up-to-date development version of the treebank as well as related tools and resources:
+The development of this treebank and related tools is part of the research activities of the Research Group on Computation and Natural Language (*Computação e Linguagem Natural* — CompLin) at the Humanities Center of the Federal University of Ceará, Brazil. The main contributor to this effort is Leonel Figueiredo de Alencar, coordinator of the CompLin group. Additional annotators include Dominick Maia Alexandre, Hélio Leonam Barroso Silva, and Juliana Lopes Gurgel, who was a scholarship holder in the DACILAT project funded by the São Paulo Research Foundation (*Fundação de Amparo à Pesquisa do Estado de São Paulo* — FAPESP), Process No. 22/09158-5.
+
+The following repository contains the most up-to-date development version of the treebank, as well as related tools and resources:
 
 https://github.com/CompLin/nheengatu
 
-So far, the treebank includes examples from Seixas (1853), Hartt (1872), Magalhães (1876), Sympson (1877), Rogrigues (1890), Aguiar (1898), Costa (1909), Studart (1926), Amorim (1928), Hartt (1938), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Stradelli (1929/2014), Navarro (2016), Melgueiro, Câmara, and Martins (2019), Muller et al. (2019), Alencar (2021), Avila (2021), and Melgueiro (2022) as well as from the New Testament (*Novo Testamento na língua Nyengatu*, 1973/2019) and from issues 3 and 17 of the *Leetra Indígena* journal (Universidade Federal de São Carlos, 2014, 2015).
+The treebank currently includes examples from Seixas (1853), Hartt (1872), Magalhães (1876), Sympson (1877), Rodrigues (1890), Aguiar (1898), Costa (1909), Studart (1926), Amorim (1928), Hartt (1938), Moore, Facundes, and Pires (1994), Casasnovas (2006), Cruz (2011), Comunidade de Terra Preta (2013), Stradelli (1929/2014), Navarro (2016), Melgueiro, Câmara, and Martins (2019), Muller et al. (2019), de Alencar (2021), Avila (2021), and Melgueiro (2022), as well as from the *Novo Testamento na língua Nyengatu* (1973/2019) and issues 3 and 17 of the *Leetra Indígena* journal (Universidade Federal de São Carlos, 2014, 2015).
 
 # How to cite
 If you use this treebank, or any of the tools and resources available in the repository mentioned above, please cite the following papers as appropriate:
@@ -142,32 +144,55 @@ Copyright of the treebank sentences and their translations belongs to their resp
 
 ## References
 
-* Aguiar, Costa. (1898). *Doutrina christã destinada aos naturaes do amazonas em nhihingatu' com traducção portugueza em face*. Pap. e Tip. Pacheco, Silva & C.
-* Avila, Marcel Twardowsky.(2021). *Proposta de dicionário nheengatu-português* [Doctoral dissertation, University of São Paulo]. doi:10.11606/T.8.2021.tde-10012022-201925
+* Aguiar, Costa. (1898). *Doutrina christã destinada aos naturaes do Amazonas em nhihingatu com traducção portugueza em face*. Pap. e Tip. Pacheco, Silva & C.
+
+* Avila, Marcel Twardowsky. (2021). *Proposta de dicionário nheengatu-português* (Doctoral dissertation, University of São Paulo). https://doi.org/10.11606/T.8.2021.tde-10012022-201925
+
 * Casasnovas, Afonso. (2016). *Noções de língua geral ou nheengatú: Gramática, lendas e vocabulário* (2nd ed.). Editora da Universidade Federal do Amazonas; Faculdade Salesiana Dom Bosco.
-* Comunidade de Terra Preta. (2013). *Fábulas de Terra Preta: Uma coletânea bilingüe*.
+
+* Comunidade de Terra Preta. (2013). *Fábulas de Terra Preta: Uma coletânea bilíngue*.
+
 * Costa, D. Frederico. (1909). *Carta pastoral de D. Frederico Costa bispo do Amazonas a seus amados diocesanos*. Typ. Minerva.
+
 * Cruz, Aline da. (2011). *Fonologia e gramática do nheengatú: A língua falada pelos povos Baré, Warekena e Baniwa*. Netherlands National Graduate School of Linguistics.
-* de Alencar, Leonel Figueiredo. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717-1777. doi:http://dx.doi.org/10.17851/2237-2083.29.3.1717-1777
-* de Amorim, Antonio Brandão. (1928). Lendas em nheêngatú e em portuguez. *Revista do Instituto Historico e Geographico Brasileiro, 154*(100), 9-475.
-* Hartt, Charles Frederick. (1872). *Notes on the Lingoa Geral or Modern Tupi of the Amazonas*. Transactions of the American Philological Association, 3, 58–76. https://www.jstor.org/stable/310258
-* Hartt, Charles Frederick. (1938). *Notas sobre a língua geral, ou tupí moderno do Amazonas*. Anais da Biblioteca Nacional do Rio de Janeiro, 51, 305–390. Rio de Janeiro: M. E. S. Serviço Gráfico.
+
+* de Alencar, Leonel Figueiredo. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717–1777. http://dx.doi.org/10.17851/2237-2083.29.3.1717-1777
+
+* de Amorim, Antonio Brandão. (1928). Lendas em nheêngatú e em portuguez. *Revista do Instituto Historico e Geographico Brasileiro, 154*(100), 9–475.
+
 * de Magalhães, J. V. C. (1876). *O selvagem*. Typographia da Reforma.
-* Maslova, Irina. (2018). *Tradução Comentada de Mitos e Lendas Amazônicas do Nheengatu para o Russo*. [Master's thesis, University of São Paulo]. doi:10.11606/D.8.2019.tde-22022019-175350
-* Melgueiro, Edilson Martins, Ana Suelly Arruda Câmara, & Martins, Marci Fileti. (2019). Orações relativas em Nheengatú ou Ingatú. *Revista Brasileira de Linguística Antropológica, 11*(2), 16. https://doi.org/10.26512/rbla.v11i02.28115
-* Melgueiro, Edilson Martins. (2022). *O Nheengatu de Stradelli aos dias atuais: uma contribuição aos estudos lexicais de línguas Tupí-Guaraní em perspectiva diacrônica*. [Doctoral dissertation, University of Brasília]. http://repositorio2.unb.br/jspui/handle/10482/44655
-* Moore, Denny, Facundes, Sidney, & Pires, Nádia. (1994). *Nheengatu (Língua Geral Amazônica), its History, and the Effects of Language Contact*. UC Berkeley: Department of Linguistics. Retrieved from https://escholarship.org/uc/item/7tb981s1
-* Muller, Jean-Claude, Dietrich, Wolf, Monserrat, Ruth, Barros, Cândida, Arenz, Karl-Heinz, & Prudente, Gabriel. (Eds.). (2019). *Dicionário De Língua Geral Amazônica*. Universitätsverlag Potsdam; Museu Paraense Emilio Goeldi.
-* Navarro, Eduardo de Almeida. (2016). *Curso de Língua Geral (nheengatu ou tupi moderno): A língua das origens da civilização amazônica* (2nd ed.). Centro Angel Rama da Faculdade de Filosofia, Letras e Ciências Humanas da Universidade de São Paulo.
+
+* Hartt, Charles Frederick. (1872). *Notes on the Lingoa Geral or Modern Tupi of the Amazonas*. *Transactions of the American Philological Association, 3*, 58–76. https://www.jstor.org/stable/310258
+
+* Hartt, Charles Frederick. (1938). *Notas sobre a língua geral, ou tupí moderno do Amazonas*. *Anais da Biblioteca Nacional do Rio de Janeiro, 51*, 305–390. Rio de Janeiro: M. E. S. Serviço Gráfico.
+
+* Maslova, Irina. (2018). *Tradução comentada de mitos e lendas amazônicas do nheengatu para o russo* (Master’s thesis, University of São Paulo). https://doi.org/10.11606/D.8.2019.tde-22022019-175350
+
+* Melgueiro, Edilson Martins, Câmara, Ana Suelly Arruda, & Martins, Marci Fileti. (2019). Orações relativas em Nheengatú ou Ingatú. *Revista Brasileira de Linguística Antropológica, 11*(2), 16. https://doi.org/10.26512/rbla.v11i02.28115
+
+* Melgueiro, Edilson Martins. (2022). *O Nheengatu de Stradelli aos dias atuais: uma contribuição aos estudos lexicais de línguas Tupí-Guaraní em perspectiva diacrônica* (Doctoral dissertation, University of Brasília). http://repositorio2.unb.br/jspui/handle/10482/44655
+
+* Moore, Denny, Facundes, Sidney, & Pires, Nádia. (1994). *Nheengatu (Língua Geral Amazônica), its history, and the effects of language contact*. Department of Linguistics, University of California, Berkeley. https://escholarship.org/uc/item/7tb981s1
+
+* Muller, Jean-Claude, Dietrich, Wolf, Monserrat, Ruth, Barros, Cândida, Arenz, Karl-Heinz, & Prudente, Gabriel (Eds.). (2019). *Dicionário de língua geral amazônica*. Universitätsverlag Potsdam; Museu Paraense Emílio Goeldi.
+
+* Navarro, Eduardo de Almeida. (2016). *Curso de língua geral (nheengatu ou tupi moderno): A língua das origens da civilização amazônica* (2nd ed.). Centro Angel Rama, FFLCH, Universidade de São Paulo.
+
 * *Novo Testamento na língua Nyengatu* (2nd ed.). (2019). Missão Novas Tribos do Brasil. (Original work published 1973)
-* Rodrigues, João Barbosa. (1890).  *Poranduba amazonense ou kochiyma-uara porandub, 1872-1887.* Typ. de G. Leuzinger & Filhos.
+
+* Rodrigues, João Barbosa. (1890). *Poranduba amazonense ou kochiyma-uara porandub, 1872–1887*. Typ. de G. Leuzinger & Filhos.
+
 * Seixas, Manoel Justiniano de. (1853). *Vocabulario da lingua indigena geral para o uso do Seminario Episcopal do Pará*. Typ. de Mattos e Compª.
-* Stradelli, Ermanno. (2014). *Vocabulário português-nheengatu, nheengatu-português*. Ateliê Editorial.(Original work published 1929)
-Here is the BibTeX entry formatted according to APA style:
+
+* Stradelli, Ermanno. (2014). *Vocabulário português-nheengatu, nheengatu-português*. Ateliê Editorial. (Original work published 1929)
+
 * Studart, Jorge. (1926). Ligeiras noções de língua geral. *Revista do Instituto do Ceará, 40*, 26–38.
-* Sympson, Pedro Luiz. *Grammatica da lingua brazilica geral, fallada pelos aborigines das provincias do Pará e Amazonas*. Typographia do Commercio do Amazonas, 1877.
-* Universidade Federal de São Carlos. Laboratório de Linguagens LEETRA. (2014). *Leetra Indígena, 3*(3) [Edição especial: Yasú Yapurũgtitá Yẽgatú]. São Carlos, SP: Universidade Federal de São Carlos.
-* Universidade Federal de São Carlos. Laboratório de Linguagens LEETRA. (2015). *Leetra Indígena, 1*(17) [Edição especial: Escola Kariamã conta umbuesá]. São Carlos, SP: Universidade Federal de São Carlos.
+
+* Sympson, Pedro Luiz. (1877). *Grammatica da lingua brazilica geral, fallada pelos aborigines das provincias do Pará e Amazonas*. Typographia do Commercio do Amazonas.
+
+* Universidade Federal de São Carlos, Laboratório de Linguagens LEETRA. (2014). *Leetra Indígena, 3*(3) [Edição especial: Yasú Yapurũgtitá Yẽgatú]. São Carlos, SP: UFSCar.
+
+* Universidade Federal de São Carlos, Laboratório de Linguagens LEETRA. (2015). *Leetra Indígena, 1*(17) [Edição especial: Escola Kariamã conta umbuesá]. São Carlos, SP: UFSCar.
 
 
 
