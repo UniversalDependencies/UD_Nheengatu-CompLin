@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Nheengatu-CompLin:
-commit bb341cebeda659658839f44d49aee4933eaed041
-Merge: c548d59 dd56fa7
+commit 54dd8cc83b25e8ab0033efb7995e12cb7b7bfb95
+Merge: cf627c1 c2973c4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'yrl_complin'
 Language code (from CoNLL-U file name) = 'yrl'
 Found the following data files: yrl_complin-ud-test.conllu, yrl_complin-ud-train.conllu
-Size: counted 26033 of 26033 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.51872992799649.
+Size: counted 26848 of 26848 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.58038266056959.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 19164 out of 26033 total words have one or more features.
+Features: 19784 out of 26848 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -32,10 +32,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.277777777777778) = 0.0308641975308642
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.47184140612441) = 0.174756076342374
+(weight=0.37037037037037) * (score{size}=0.476303979716202) = 0.176408881376371
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
-(TOTAL score=0.687152394228888) * (availability=1) * (validity=1) = 0.687152394228888
+(TOTAL score=0.688805199262885) * (availability=1) * (validity=1) = 0.688805199262885
 STARS = 3.5
-UD_Nheengatu-CompLin	0.687152394228888	3.5
+UD_Nheengatu-CompLin	0.688805199262885	3.5
