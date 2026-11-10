@@ -51,9 +51,9 @@
     <feat name="Aspect" value="Imp" upos="PART">66</feat><!-- rẽ, ranhẽ, raẽ, raĩ, saĩ -->
     <feat name="Aspect" value="Iter" upos="AUX,VERB">5</feat><!-- uyuíri, xayuíri, yayuíri -->
     <feat name="Aspect" value="Perf" upos="PART">346</feat><!-- ana, ã, wã, wana -->
-    <feat name="Case" value="Acc,Nom" upos="PRON">1134</feat><!-- aé, aintá, ixé, indé, ta, penhẽ, yandé, iné, yané, aúna -->
+    <feat name="Case" value="Acc,Nom" upos="PRON">1136</feat><!-- aé, aintá, ixé, indé, ta, penhẽ, yandé, iné, yané, aúna -->
     <feat name="Case" value="Dat" upos="PRON">28</feat><!-- ixéu, inéu, yanéu, indéu -->
-    <feat name="Case" value="Gen" upos="PRON">1505</feat><!-- i, se, ne, yané, aintá, pe, ta, xe, yandé, U -->
+    <feat name="Case" value="Gen" upos="PRON">1503</feat><!-- i, se, ne, yané, aintá, pe, ta, xe, yandé, U -->
     <feat name="Clitic" value="Yes" upos="ADP,ADV,PART">240</feat><!-- pe, upé, ntu, taá, wera, wara, me, ta, arã, mi -->
     <feat name="Compound" value="Yes" upos="AUX">163</feat><!-- putari, kwáu, kari, kwá, vutari -->
     <feat name="Definite" value="Ind" upos="DET,PRON">174</feat><!-- yepé, muyepé -->
@@ -142,7 +142,7 @@
     <dep name="det">827</dep>
     <dep name="discourse">42</dep>
     <dep name="dislocated">68</dep>
-    <dep name="expl">170</dep>
+    <dep name="expl">171</dep>
     <dep name="fixed">70</dep>
     <dep name="flat">19</dep>
     <dep name="goeswith">18</dep>
@@ -150,9 +150,9 @@
     <dep name="mark">616</dep>
     <dep name="nmod">80</dep>
     <dep name="nmod:poss">1543</dep>
-    <dep name="nsubj">2665</dep>
+    <dep name="nsubj">2663</dep>
     <dep name="nummod">80</dep>
-    <dep name="obj">1589</dep>
+    <dep name="obj">1590</dep>
     <dep name="obl">1536</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">857</dep>
